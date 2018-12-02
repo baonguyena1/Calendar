@@ -32,6 +32,7 @@ class MyViewController: UIViewController {
         calendarView.cellSize = self.cellSize
         calendarView.minimumLineSpacing = 2
         calendarView.minimumInteritemSpacing = 2
+        calendarView.deselectAllDates()
     }
 
 }
@@ -40,13 +41,13 @@ extension MyViewController: JTAppleCalendarViewDataSource {
     func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters {
         self.formatter.dateFormat = "yyyy/MM/dd"
         let startDate = Date()
-        let endDate = self.myCalendar.date(byAdding: .month, value: 1, to: startDate) ?? Date()
+        let endDate = self.myCalendar.date(byAdding: .year, value: 1, to: startDate) ?? Date()
         let parameter = ConfigurationParameters(startDate: startDate,
                                                 endDate: endDate,
                                                 calendar: self.myCalendar,
                                                 generateInDates: .forAllMonths,
-                                                generateOutDates: .tillEndOfGrid,
-                                                firstDayOfWeek: .monday,
+                                                generateOutDates: .tillEndOfRow,
+                                                firstDayOfWeek: .sunday,
                                                 hasStrictBoundaries: true)
         return parameter
     }
@@ -80,15 +81,16 @@ extension MyViewController: JTAppleCalendarViewDelegate {
     }
 
     func calendarSizeForMonths(_ calendar: JTAppleCalendarView?) -> MonthSize? {
-        return MonthSize(defaultSize: 90)
+        return MonthSize(defaultSize: 80)
     }
     
     func calendar(_ calendar: JTAppleCalendarView, shouldSelectDate date: Date, cell: JTAppleCell?, cellState: CellState) -> Bool {
-        guard let myCell = cell as? CellView else { return false }
-        if date < Date() {
+        self.formatter.dateFormat = "yyyy/MM/dd"
+        let dateString = self.formatter.string(from: date)
+        let currentDate = self.formatter.string(from: Date())
+        if dateString < currentDate || cellState.dateBelongsTo != .thisMonth {
             return false
         }
-//        return myCell.cornerView.isHidden
         return true
     }
     
@@ -109,29 +111,52 @@ extension MyViewController {
     
     fileprivate func configureVisibleCell(cell: JTAppleCell, cellState: CellState, date: Date) {
         let myCell = cell as! CellView
-        if self.myCalendar.isDateInToday(date) {
-            myCell.borderView.backgroundColor = UIColor.red
-        } else {
-            myCell.borderView.backgroundColor = nil
-        }
+        
         if cellState.dateBelongsTo == .thisMonth {
-            cell.isHidden = false
+            myCell.dayLabel.text = cellState.text
         } else {
-            cell.isHidden = true
+            myCell.dayLabel.text = nil
         }
-        let isVisible: Bool = arc4random() % 2 == 0
-        myCell.cornerView.isHidden = isVisible
+        handleDisableCell(cell: myCell, cellState: cellState)
+        handleShowTag(cell: myCell, cellState: cellState)
+    }
+    
+    fileprivate func handleDisableCell(cell: CellView, cellState: CellState) {
+        self.formatter.dateFormat = "yyyy/MM/dd"
+        let dateString = self.formatter.string(from: cellState.date)
+        let currentDate = self.formatter.string(from: Date())
+        if dateString < currentDate || cellState.dateBelongsTo != .thisMonth {
+            cell.borderView.layer.borderWidth = 0.0
+            cell.borderView.backgroundColor = UIColor.disable
+            cell.dayLabel.textColor = UIColor.disableText
+        } else {
+            cell.borderView.layer.borderWidth = 1.0
+            cell.borderView.backgroundColor = UIColor.white
+            cell.dayLabel.textColor = UIColor.selected
+        }
+    }
+    
+    fileprivate func handleShowTag(cell: CellView, cellState: CellState) {
+        self.formatter.dateFormat = "yyyy/MM/dd"
+        let dateString = self.formatter.string(from: cellState.date)
+        let currentDate = self.formatter.string(from: Date())
+        if dateString < currentDate || cellState.dateBelongsTo != .thisMonth {
+            cell.cornerView.isHidden = true
+        } else {
+            let isVisible = arc4random() % 2 == 0
+            cell.cornerView.isHidden = isVisible
+        }
     }
     
     fileprivate func handleCellSelection(cell: JTAppleCell?, cellState: CellState, date: Date) {
         guard let myCell = cell as? CellView else { return }
         
         if cellState.isSelected {
-            myCell.borderView.backgroundColor = UIColor.green
-        } else if self.myCalendar.isDateInToday(date) {
-            myCell.borderView.backgroundColor = UIColor.red
+            myCell.borderView.backgroundColor = UIColor.selected
+            myCell.dayLabel.textColor = UIColor.deSelected
         } else {
-            myCell.borderView.backgroundColor = nil
+            myCell.borderView.backgroundColor = UIColor.deSelected
+            myCell.dayLabel.textColor = UIColor.selected
         }
     }
 }
