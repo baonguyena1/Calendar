@@ -16,11 +16,12 @@ class CellView: JTAppleCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.borderView.layer.cornerRadius = 4.0
+        self.borderView.layer.cornerRadius = 6.0
+        self.borderView.layer.masksToBounds = true
         self.borderView.layer.borderWidth = 1.0
         self.borderView.layer.borderColor = UIColor.red.cgColor
         
-        self.cornerView.layer.cornerRadius = 6.0
+        self.cornerView.layer.cornerRadius = 8.0
         self.cornerView.layer.masksToBounds = true
     }
     

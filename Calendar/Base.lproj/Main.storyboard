@@ -98,10 +98,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HoD-Xa-WEm">
-                                                    <rect key="frame" x="0.0" y="10" width="116" height="116"/>
+                                                    <rect key="frame" x="0.0" y="3" width="123" height="123"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFQ-6O-0gz">
-                                                            <rect key="frame" x="37" y="47.5" width="42" height="21"/>
+                                                            <rect key="frame" x="40.5" y="51" width="42" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -113,11 +113,11 @@
                                                         <constraint firstItem="mFQ-6O-0gz" firstAttribute="centerY" secondItem="HoD-Xa-WEm" secondAttribute="centerY" id="kzy-ie-rsd"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2sL-dg-LNB">
-                                                    <rect key="frame" x="104" y="0.0" width="22" height="20.5"/>
+                                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2sL-dg-LNB">
+                                                    <rect key="frame" x="106" y="0.0" width="20" height="20.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yb4-X8-egu">
-                                                            <rect key="frame" x="4" y="3" width="14" height="14.5"/>
+                                                            <rect key="frame" x="3" y="3" width="14" height="14.5"/>
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -126,19 +126,19 @@
                                                     <color key="backgroundColor" red="0.98823529409999999" green="0.30980392159999998" blue="0.031372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="Yb4-X8-egu" firstAttribute="top" secondItem="2sL-dg-LNB" secondAttribute="top" constant="3" id="9DA-mi-4l8"/>
-                                                        <constraint firstItem="Yb4-X8-egu" firstAttribute="leading" secondItem="2sL-dg-LNB" secondAttribute="leading" constant="4" id="Q2M-tL-f2N"/>
+                                                        <constraint firstItem="Yb4-X8-egu" firstAttribute="leading" secondItem="2sL-dg-LNB" secondAttribute="leading" constant="3" id="Q2M-tL-f2N"/>
                                                         <constraint firstAttribute="bottom" secondItem="Yb4-X8-egu" secondAttribute="bottom" constant="3" id="RTY-w8-Y1N"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Yb4-X8-egu" secondAttribute="trailing" constant="4" id="kMo-5f-bBi"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Yb4-X8-egu" secondAttribute="trailing" constant="3" id="kMo-5f-bBi"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                         </view>
                                         <constraints>
                                             <constraint firstItem="2sL-dg-LNB" firstAttribute="top" secondItem="UhD-zR-90x" secondAttribute="top" id="1rc-O9-2cN"/>
-                                            <constraint firstItem="2sL-dg-LNB" firstAttribute="top" secondItem="HoD-Xa-WEm" secondAttribute="top" constant="-10" id="5Kj-73-AyL"/>
+                                            <constraint firstItem="2sL-dg-LNB" firstAttribute="top" secondItem="HoD-Xa-WEm" secondAttribute="top" constant="-3" id="5Kj-73-AyL"/>
                                             <constraint firstAttribute="bottom" secondItem="HoD-Xa-WEm" secondAttribute="bottom" id="JM8-GI-X46"/>
                                             <constraint firstAttribute="trailing" secondItem="2sL-dg-LNB" secondAttribute="trailing" id="Wgh-4B-ahK"/>
-                                            <constraint firstItem="2sL-dg-LNB" firstAttribute="leading" secondItem="HoD-Xa-WEm" secondAttribute="trailing" constant="-12" id="XuB-Td-dot"/>
+                                            <constraint firstItem="HoD-Xa-WEm" firstAttribute="trailing" secondItem="2sL-dg-LNB" secondAttribute="trailing" constant="-3" id="XuB-Td-dot"/>
                                             <constraint firstItem="HoD-Xa-WEm" firstAttribute="leading" secondItem="UhD-zR-90x" secondAttribute="leading" id="bSQ-Zl-OhH"/>
                                         </constraints>
                                         <connections>

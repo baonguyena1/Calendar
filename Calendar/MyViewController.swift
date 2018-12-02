@@ -30,8 +30,8 @@ class MyViewController: UIViewController {
         calendarView.calendarDelegate = self
         calendarView.calendarDataSource = self
         calendarView.cellSize = self.cellSize
-        calendarView.minimumLineSpacing = 2
-        calendarView.minimumInteritemSpacing = 2
+        calendarView.minimumLineSpacing = 1
+        calendarView.minimumInteritemSpacing = 1
         calendarView.deselectAllDates()
     }
 
@@ -95,7 +95,7 @@ extension MyViewController: JTAppleCalendarViewDelegate {
     }
     
     func calendar(_ calendar: JTAppleCalendarView, didSelectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
-        handleCellSelection(cell: cell, cellState: cellState, date: date)
+        handleCellSelection(cell: cell, cellState: cellState)
     }
     
     func calendar(_ calendar: JTAppleCalendarView, shouldDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) -> Bool {
@@ -103,7 +103,7 @@ extension MyViewController: JTAppleCalendarViewDelegate {
     }
     
     func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
-        handleCellSelection(cell: cell, cellState: cellState, date: date)
+        handleCellSelection(cell: cell, cellState: cellState)
     }
 }
 
@@ -117,30 +117,30 @@ extension MyViewController {
         } else {
             myCell.dayLabel.text = nil
         }
-        handleDisableCell(cell: myCell, cellState: cellState)
+        
+        handleDisplayCell(cell: myCell, cellState: cellState)
         handleShowTag(cell: myCell, cellState: cellState)
     }
     
-    fileprivate func handleDisableCell(cell: CellView, cellState: CellState) {
-        self.formatter.dateFormat = "yyyy/MM/dd"
-        let dateString = self.formatter.string(from: cellState.date)
-        let currentDate = self.formatter.string(from: Date())
-        if dateString < currentDate || cellState.dateBelongsTo != .thisMonth {
+    fileprivate func handleDisplayCell(cell: CellView, cellState: CellState) {
+        if cellState.date.compareWithOutTime(date: Date()) == .orderedAscending || cellState.dateBelongsTo != .thisMonth {
             cell.borderView.layer.borderWidth = 0.0
-            cell.borderView.backgroundColor = UIColor.disable
-            cell.dayLabel.textColor = UIColor.disableText
+            cell.borderView.backgroundColor = UIColor.calendar_disable
+            cell.dayLabel.textColor = UIColor.calendar_disableText
         } else {
             cell.borderView.layer.borderWidth = 1.0
-            cell.borderView.backgroundColor = UIColor.white
-            cell.dayLabel.textColor = UIColor.selected
+            if self.calendarView.selectedDates.contains(cellState.date) {
+                cell.borderView.backgroundColor = UIColor.calendar_selected
+                cell.dayLabel.textColor = UIColor.calendar_selected_text
+            } else {
+                cell.borderView.backgroundColor = UIColor.calendar_deSelected
+                cell.dayLabel.textColor = UIColor.calendar_normal_text
+            }
         }
     }
     
     fileprivate func handleShowTag(cell: CellView, cellState: CellState) {
-        self.formatter.dateFormat = "yyyy/MM/dd"
-        let dateString = self.formatter.string(from: cellState.date)
-        let currentDate = self.formatter.string(from: Date())
-        if dateString < currentDate || cellState.dateBelongsTo != .thisMonth {
+        if cellState.date.compareWithOutTime(date: Date()) == .orderedAscending || cellState.dateBelongsTo != .thisMonth {
             cell.cornerView.isHidden = true
         } else {
             let isVisible = arc4random() % 2 == 0
@@ -148,15 +148,15 @@ extension MyViewController {
         }
     }
     
-    fileprivate func handleCellSelection(cell: JTAppleCell?, cellState: CellState, date: Date) {
+    fileprivate func handleCellSelection(cell: JTAppleCell?, cellState: CellState) {
         guard let myCell = cell as? CellView else { return }
         
         if cellState.isSelected {
-            myCell.borderView.backgroundColor = UIColor.selected
-            myCell.dayLabel.textColor = UIColor.deSelected
+            myCell.borderView.backgroundColor = UIColor.calendar_selected
+            myCell.dayLabel.textColor = UIColor.calendar_deSelected
         } else {
-            myCell.borderView.backgroundColor = UIColor.deSelected
-            myCell.dayLabel.textColor = UIColor.selected
+            myCell.borderView.backgroundColor = UIColor.calendar_deSelected
+            myCell.dayLabel.textColor = UIColor.calendar_selected
         }
     }
 }
