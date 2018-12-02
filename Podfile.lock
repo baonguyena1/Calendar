@@ -1,0 +1,20 @@
+PODS:
+  - FSCalendar (2.8.0)
+  - JTAppleCalendar (7.1.6)
+
+DEPENDENCIES:
+  - FSCalendar
+  - JTAppleCalendar (~> 7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FSCalendar
+    - JTAppleCalendar
+
+SPEC CHECKSUMS:
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  JTAppleCalendar: abb30678f42a4ef8a340a932b1dcb8c85a33dac2
+
+PODFILE CHECKSUM: 653d529f5ab4e65ad1e8f220d672e7abeb54efdc
+
+COCOAPODS: 1.5.3
