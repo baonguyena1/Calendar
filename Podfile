@@ -6,7 +6,8 @@ target 'Calendar' do
   use_frameworks!
 
   # Pods for Calendar
-  pod 'FSCalendar'
   pod 'JTAppleCalendar', '~> 7.0'
+  pod 'KDDragAndDropCollectionViews', '~> 1.5.1'
+  pod 'DNDDragAndDrop', '~> 1.4'
 
 end
