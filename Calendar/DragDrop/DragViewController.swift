@@ -29,7 +29,15 @@ class DragViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     fileprivate var dragAndDropController: DNDDragAndDropController!
     
+    fileprivate lazy var longPressGesture: DNDLongPressDragRecognizer = {
+        let gesture = DNDLongPressDragRecognizer()
+        gesture.minimumPressDuration = 0.01
+        return gesture
+    }()
+    
     fileprivate var data : [DataItem] = [DataItem]()
+    
+    fileprivate var sourceIndexPath: IndexPath? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +48,13 @@ class DragViewController: UIViewController {
         if let window = UIApplication.shared.delegate?.window, window != nil {
             
             self.dragAndDropController = DNDDragAndDropController(window: window!)
+            let gesture = DNDLongPressDragRecognizer()
+            gesture.minimumPressDuration = 0.5
+            
+            self.collectionView.panGestureRecognizer.require(toFail: gesture)
+            
+            self.dragAndDropController.registerDragSource(self.collectionView, with: self, drag: gesture)
+            self.dragAndDropController.registerDropTarget(self.collectionView, with: self)
         }
     }
 
@@ -86,10 +101,31 @@ extension DragViewController: UICollectionViewDelegateFlowLayout {
 
 extension DragViewController: DNDDragSourceDelegate {
     
+    fileprivate func snapshotOfCell(inputView: UIView) -> UIView {
+        UIGraphicsBeginImageContextWithOptions(inputView.bounds.size, false, 0.0)
+        inputView.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        
+        let cellSnapshot : UIView = UIImageView(image: image)
+        cellSnapshot.layer.masksToBounds = false
+        cellSnapshot.layer.cornerRadius = 0.0
+        cellSnapshot.layer.shadowOffset = CGSize(width: -5.0, height: 0.0)
+        cellSnapshot.layer.shadowRadius = 5.0
+        cellSnapshot.layer.shadowOpacity = 0.4
+        cellSnapshot.isUserInteractionEnabled = true
+        cellSnapshot.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
+        return cellSnapshot
+    }
+
+    
     func draggingView(for operation: DNDDragOperation) -> UIView? {
-        let view = UIView()
-        view.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-        view.backgroundColor = UIColor.red
+        
+        guard let indexPath = self.collectionView.indexPathForItem(at: operation.location(in: self.collectionView)) else { return nil }
+        guard let cell = self.collectionView.cellForItem(at: indexPath) as? MemberViewCell else { return nil }
+        self.sourceIndexPath = indexPath
+        print("didDropInDropTarget: \(indexPath.row) - \(indexPath.section)")
+        let view = snapshotOfCell(inputView: cell.containerView)
         return view
     }
     
@@ -102,14 +138,26 @@ extension DragViewController: DNDDragSourceDelegate {
 extension DragViewController: DNDDropTargetDelegate {
     func dragOperation(_ operation: DNDDragOperation, didDropInDropTarget target: UIView) {
         
+        defer {
+            operation.removeDraggingView()
+        }
+        guard let indexPath = self.collectionView.indexPathForItem(at: operation.location(in: self.collectionView)) else { return }
+        print("didDropInDropTarget: \(indexPath.row) - \(indexPath.section)")
     }
     
     func dragOperation(_ operation: DNDDragOperation, didEnterDropTarget target: UIView) {
-        target.layer.borderColor = UIColor.red.cgColor
-        target.layer.borderWidth = 1.0
+        print("didEnterDropTarget")
+        guard let indexPath = self.collectionView.indexPathForItem(at: operation.location(in: self.collectionView)) else { return }
+        guard let cell = self.collectionView.cellForItem(at: indexPath) as? MemberViewCell else { return }
+        
+        cell.containerView.layer.borderColor = UIColor.red.cgColor
+        cell.containerView.layer.borderWidth = 2.0
     }
     
     func dragOperation(_ operation: DNDDragOperation, didLeaveDropTarget target: UIView) {
-        target.layer.borderWidth = 0.0
+        print("didLeaveDropTarget")
+        guard let indexPath = self.collectionView.indexPathForItem(at: operation.location(in: self.collectionView)) else { return }
+        guard let cell = self.collectionView.cellForItem(at: indexPath) as? MemberViewCell else { return }
+        cell.containerView.layer.borderWidth = 0.0
     }
 }
