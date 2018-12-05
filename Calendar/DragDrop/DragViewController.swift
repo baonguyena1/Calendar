@@ -9,13 +9,38 @@
 import UIKit
 import DNDDragAndDrop
 
+class DataItem : Equatable {
+    
+    var image: UIImage
+    var index: Int
+    
+    init(image: UIImage, index: Int) {
+        self.image = image
+        self.index = index
+    }
+    
+    static func ==(lhs: DataItem, rhs: DataItem) -> Bool {
+        return lhs.index == rhs.index
+    }
+}
+
 class DragViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet var dragAndDropController: DNDDragAndDropController!
+    fileprivate var dragAndDropController: DNDDragAndDropController!
+    
+    fileprivate var data : [DataItem] = [DataItem]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.data = (0..<100).map { i in
+            let image: UIImage = i % 3 == 0 ? #imageLiteral(resourceName: "ic_icon1") : #imageLiteral(resourceName: "ic_icon2")
+            return DataItem(image: image, index: i)
+        }
+        if let window = UIApplication.shared.delegate?.window, window != nil {
+            
+            self.dragAndDropController = DNDDragAndDropController(window: window!)
+        }
     }
 
 }
@@ -23,7 +48,7 @@ class DragViewController: UIViewController {
 extension DragViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5 * 20
+        return self.data.count
     }
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
@@ -31,21 +56,15 @@ extension DragViewController: UICollectionViewDataSource {
         return header
     }
     
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        guard let myCell = cell as? MemberViewCell else {
-            return
-        }
-        myCell.containerView.layer.cornerRadius = myCell.containerView.frame.width/2.0
-    }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MemberViewCell.cellId, for: indexPath) as! MemberViewCell
-        cell.containerView.layer.cornerRadius = cell.containerView.frame.width/2.0
-        
-        self.dragAndDropController.registerDragSource(cell, with: self)
-        self.dragAndDropController.registerDropTarget(cell, with: self)
-        
+        let data = self.data[indexPath.row]
+        cell.avatarImageView.image = data.image
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, canMoveItemAt indexPath: IndexPath) -> Bool {
+        return indexPath.row % 5 != 0
     }
 }
 
