@@ -7,7 +7,7 @@ target 'Calendar' do
 
   # Pods for Calendar
   pod 'JTAppleCalendar', '~> 7.0'
-  pod 'KDDragAndDropCollectionViews', '~> 1.5.1'
   pod 'DNDDragAndDrop', '~> 1.4'
+  pod 'DragDropiOS'
 
 end

@@ -11,13 +11,13 @@
 		9BA5BADD21B7662B0097A24A /* TestDragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5BADC21B7662B0097A24A /* TestDragViewController.swift */; };
 		9BA5BADF21B778F40097A24A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA5BADE21B778F40097A24A /* CoreGraphics.framework */; };
 		9BA5BAE121B778FA0097A24A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA5BAE021B778FA0097A24A /* QuartzCore.framework */; };
-		9BF807E421B7C8CE00C7B4A7 /* HourReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF807E321B7C8CE00C7B4A7 /* HourReusableView.swift */; };
-		9BF807E621B7C8D300C7B4A7 /* MemberViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF807E521B7C8D300C7B4A7 /* MemberViewCell.swift */; };
 		BF0AEE6021B6CFC0006CCC0A /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0AEE5F21B6CFC0006CCC0A /* DragViewController.swift */; };
 		BF49E9DF21B42655003B3580 /* Date+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49E9DE21B42655003B3580 /* Date+Helper.swift */; };
 		BF5B16C621B3B91200797955 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5B16C521B3B91200797955 /* UIColor+Helper.swift */; };
 		BFA7E82B21B29F0B001D8E9D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA7E82A21B29F0B001D8E9D /* MyViewController.swift */; };
 		BFA7E82F21B2A01E001D8E9D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA7E82E21B2A01E001D8E9D /* CellView.swift */; };
+		BFA831E421BCC2FE008AE35C /* HourReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA831E221BCC2FE008AE35C /* HourReusableView.swift */; };
+		BFA831E521BCC2FE008AE35C /* MemberViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA831E321BCC2FE008AE35C /* MemberViewCell.swift */; };
 		BFC35A6821B1892500D20EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC35A6721B1892500D20EC0 /* AppDelegate.swift */; };
 		BFC35A6D21B1892500D20EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC35A6B21B1892500D20EC0 /* Main.storyboard */; };
 		BFC35A6F21B1892600D20EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC35A6E21B1892600D20EC0 /* Assets.xcassets */; };
@@ -30,14 +30,14 @@
 		9BA5BADC21B7662B0097A24A /* TestDragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragViewController.swift; sourceTree = "<group>"; };
 		9BA5BADE21B778F40097A24A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9BA5BAE021B778FA0097A24A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		9BF807E321B7C8CE00C7B4A7 /* HourReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourReusableView.swift; path = ../../../../../Desktop/DragDrop/DragDrop/HourReusableView.swift; sourceTree = "<group>"; };
-		9BF807E521B7C8D300C7B4A7 /* MemberViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemberViewCell.swift; path = ../../../../../Desktop/DragDrop/DragDrop/MemberViewCell.swift; sourceTree = "<group>"; };
 		A4F1BEA0C38DB2CEC594F54E /* Pods-Calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calendar/Pods-Calendar.debug.xcconfig"; sourceTree = "<group>"; };
 		BF0AEE5F21B6CFC0006CCC0A /* DragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewController.swift; sourceTree = "<group>"; };
 		BF49E9DE21B42655003B3580 /* Date+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Helper.swift"; sourceTree = "<group>"; };
 		BF5B16C521B3B91200797955 /* UIColor+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Helper.swift"; sourceTree = "<group>"; };
 		BFA7E82A21B29F0B001D8E9D /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		BFA7E82E21B2A01E001D8E9D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		BFA831E221BCC2FE008AE35C /* HourReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourReusableView.swift; sourceTree = "<group>"; };
+		BFA831E321BCC2FE008AE35C /* MemberViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberViewCell.swift; sourceTree = "<group>"; };
 		BFC35A6421B1892500D20EC0 /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC35A6721B1892500D20EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFC35A6C21B1892500D20EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 		BF0AEE5A21B6CDC2006CCC0A /* DragDrop */ = {
 			isa = PBXGroup;
 			children = (
-				9BF807E521B7C8D300C7B4A7 /* MemberViewCell.swift */,
-				9BF807E321B7C8CE00C7B4A7 /* HourReusableView.swift */,
+				BFA831E221BCC2FE008AE35C /* HourReusableView.swift */,
+				BFA831E321BCC2FE008AE35C /* MemberViewCell.swift */,
 				BF0AEE5F21B6CFC0006CCC0A /* DragViewController.swift */,
 			);
 			path = DragDrop;
@@ -205,14 +205,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Calendar/Pods-Calendar-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DNDDragAndDrop/DNDDragAndDrop.framework",
+				"${BUILT_PRODUCTS_DIR}/DragDropiOS/DragDropiOS.framework",
 				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
-				"${BUILT_PRODUCTS_DIR}/KDDragAndDropCollectionViews/KDDragAndDropCollectionViews.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DNDDragAndDrop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DragDropiOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDDragAndDropCollectionViews.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -244,15 +244,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF807E421B7C8CE00C7B4A7 /* HourReusableView.swift in Sources */,
 				BFF13E0521B38D0E0047586F /* SectionHeaderView.swift in Sources */,
 				BF0AEE6021B6CFC0006CCC0A /* DragViewController.swift in Sources */,
 				9BA5BADD21B7662B0097A24A /* TestDragViewController.swift in Sources */,
 				BFA7E82F21B2A01E001D8E9D /* CellView.swift in Sources */,
+				BFA831E521BCC2FE008AE35C /* MemberViewCell.swift in Sources */,
 				BF5B16C621B3B91200797955 /* UIColor+Helper.swift in Sources */,
 				BF49E9DF21B42655003B3580 /* Date+Helper.swift in Sources */,
+				BFA831E421BCC2FE008AE35C /* HourReusableView.swift in Sources */,
 				BFA7E82B21B29F0B001D8E9D /* MyViewController.swift in Sources */,
-				9BF807E621B7C8D300C7B4A7 /* MemberViewCell.swift in Sources */,
 				BFC35A6821B1892500D20EC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

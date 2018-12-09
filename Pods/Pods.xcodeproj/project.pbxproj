@@ -7,172 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04674178E4647F4F39CF00BE78F6E326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		0F08C0922AFF8660DDC6B33F5973AD53 /* JTAppleCalendarVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F3D1F5EC711B1533BF1E753FFE62E /* JTAppleCalendarVariables.swift */; };
-		0FE133F7D800A1C036021F340146E595 /* Pods-Calendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E6A0620FB6F3273FAA8D584A9E1E5F /* Pods-Calendar-dummy.m */; };
-		10F02DB96F08988DA14F7A47CF1CFEB0 /* DNDLongPressDragRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 622AEE910554DB6FDAA7F4D943369C4B /* DNDLongPressDragRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12A2AD300F65E773885B5B69FB1D9AB8 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225E778EF44F859383912674A8A4EDD9 /* JTAppleCollectionReusableView.swift */; };
-		166F3D54B784AA1D3A3A3CC52467CC21 /* DNDDragOperation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E44F5FFF6C9D3FA1B79005B1BAC14A /* DNDDragOperation_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		31A0A90FE6645E6548B15E771DFBFD50 /* JTAppleCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E019581C2AC0AF97B79ABD9328DF91A /* JTAppleCalendarDelegateProtocol.swift */; };
-		3697783FD88CDB6D5333108508AB9118 /* DNDDragOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1CBE92B9DB83DF2D8D56642B4EEC5C /* DNDDragOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37AA16D033AE749F1E5BA5D9610A8D61 /* DNDDragOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7B1529DFAFEBDFD2D4DEE248773B60 /* DNDDragOperation.m */; };
-		42023B129903ACB04DD76CE54BEDD02C /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D1DC682F87C84F2710EF1D1C390A0 /* CalendarStructs.swift */; };
-		4611B82085E887F9215E0115AF30F99D /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFF8E5EDBC32CF1EF2AD2FA9B196A4 /* CalendarEnums.swift */; };
-		474E2861BC6E8D48123EAC03C8E3DBDF /* DNDDragHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 637B368F369E364B043456E682C78B1E /* DNDDragHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4A4476A84B0DA3E44330889219E5553D /* KDDragAndDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C826CD7AF7D54DDCB152CD5900771 /* KDDragAndDropCollectionView.swift */; };
-		4A8C82118DF95DA82582ACCEA6EA3660 /* JTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B38C8D1AC701B79D9764CCFB1AD5510 /* JTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F95E758840175C2194AF43CE326AD58 /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF442BCF6D32D953B55B7BCAE8EC85BF /* JTCalendarProtocols.swift */; };
-		63789288F05B1106F3C2E198CBB882A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		800FAC5049803E6807B23103D4CBE5F8 /* DNDDragAndDropController_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A8776D0017881483C968C143FDF278 /* DNDDragAndDropController_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		819873CF8DBFAD45590AAC8945DC1B5C /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D429AF12011D1EE8F7DB92C970D2F4 /* GlobalFunctionsAndExtensions.swift */; };
-		8394230B7C1D50A0FA996E134955E23F /* JTAppleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701998D9DF522D7983BCEF4FB40DAD6C /* JTAppleCell.swift */; };
-		847586512B615F7522ED72BE778C6C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		88D169664BCB7446158CB4C3846F325E /* Pods-Calendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0078A9A3A84308932C9B0B7ED6FBB643 /* Pods-Calendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D41224EA6D8E16C61D3140DC13B9B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		8E2AF2573C443F0DD5BB8111EC5B5375 /* InternalQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F428C92D1E3AFF2D5EA6F56CFFAF7 /* InternalQueryFunctions.swift */; };
-		8E5E3D6FCB6C2C52ED20EF236FC3155B /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2F1919682E160633219EE89AC7DAD /* UIScrollViewDelegates.swift */; };
-		A0524D54A29E525193B32AAC14848B4C /* KDDragAndDropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2FB5218DDD0ABEB02AC8ADC979A1F8 /* KDDragAndDropManager.swift */; };
-		A4E040E06E8B202E3B865B11866B6751 /* KDDragAndDropCollectionViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD18173064B61261D51BEAEEC600506A /* KDDragAndDropCollectionViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A89160BCA68B782AF6F08BBB2C29F6A0 /* DNDDragHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E44AC8DE57F7CC5CF4595BA02C562C0 /* DNDDragHandler.m */; };
-		ADFC3F86641D9C86BA1256A4E91490DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		B053AD1CF2083880DAB16384DE92F0EE /* DNDLongPressDragRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2363A96456AB3FDFC82F79BA6526ABB9 /* DNDLongPressDragRecognizer.m */; };
-		B4739E1452E5D10D47F64666AE6C5591 /* JTAppleCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6408E2B34E61C1DC6426C7653953BF6 /* JTAppleCalendarLayoutProtocol.swift */; };
-		BB319D8D1263C610B662F37368BC6CCB /* DNDDragAndDrop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2192978734839FE7F80A8F91AE71DB /* DNDDragAndDrop-dummy.m */; };
-		C2DE02D3C4CC5353EB5A8401F05A5A8D /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80994C9033C793B7251A3CE483324930 /* JTAppleCalendarView.swift */; };
-		CFDE80C521CD8313AA440E0FC7B82FBB /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D33629FB6FA659AF898DFA206888B /* JTAppleCalendarLayout.swift */; };
-		D1B55151AE05392B4A05522DED127897 /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9FA07F6B54F7F3DE6F1A66FEAB9B5 /* UserInteractionFunctions.swift */; };
-		D42A00134A505A5ED05C10FC70F1926A /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01568A23B4FBCD8C3314A7BE863293 /* UICollectionViewDelegates.swift */; };
-		D9DB17EEC54F70BA438CA1A5EE6A652C /* DNDDragAndDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE59D0F597E91E6A82B77BFAEDEE7EA /* DNDDragAndDropController.m */; };
-		D9E26DF47F5C6EB3811EEA2F1583C963 /* DNDDragAndDropController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FA8557731E7714092C03FC2113968A /* DNDDragAndDropController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE1653E6759789811F6C2995504F33CE /* KDDragAndDropCollectionViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469AE492678772117C2B72BC4B22CB8A /* KDDragAndDropCollectionViews-dummy.m */; };
-		E7CC890914AE49452861315913ED237E /* InternalActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC7960EFBCA52FFB8D5B83AD937979 /* InternalActionFunctions.swift */; };
-		E7F6F68D34A04BC292597F6E4B55AB28 /* JTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F7D5268E9019E9347A009094F90DE0 /* JTAppleCalendar-dummy.m */; };
-		F5ED1A57341587B88FFC6F82A2F2F6D2 /* DNDDragAndDrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 76614F6730CCC0F52D35259F24A59ED0 /* DNDDragAndDrop.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCB0D9E8EF0590C06E0DB14129E2832D /* DNDDragAndDrop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB014B2C7F45D332E0BE922FFB00A6D /* DNDDragAndDrop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FB42C772D290DD9709904FD4FB4354 /* DragDropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF26AF1C1A685E15566CC92D10549E2 /* DragDropManager.swift */; };
+		1B1804BAC64B4C517D5B3C44B3C63901 /* DNDDragAndDropController_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1745FA059EE0F6F939E25D2FCC77254F /* DNDDragAndDropController_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1B535709E34F02F675298F19FEA36378 /* DNDDragHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C73A8B92B7A590A9D3A15E1224B7143 /* DNDDragHandler.m */; };
+		2AA9CAFE235D84A967E2C01BCE1DFD9A /* DNDLongPressDragRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D9135BDCDDB69B6BC34957695BBAE8 /* DNDLongPressDragRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E34BF5C4E0A10FD758331AEC8DD5F1B /* DragDropiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567D2BF45945436ADE6F1C895FAC4A8 /* DragDropiOS-dummy.m */; };
+		3150DC89B627CCDF7AE9AB1B38AA0C05 /* JTAppleCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15387948D9C81B506E8EBCAB3BB50A3A /* JTAppleCalendarDelegateProtocol.swift */; };
+		35008FBCBD7E167830CE41BC92646774 /* DNDDragAndDrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 50437143A7CC2578C6ABAEE858EC8DA4 /* DNDDragAndDrop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350FD127C16D0AC10F34BEF1B7F96440 /* DragDropiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E4C9C67B5FCFCE7EDD7CFE2DBD1DDC /* DragDropiOS.swift */; };
+		35D2FA9389D49A34A1D3F2C223B25083 /* DragDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84CA5BB036D23A337B0683ED5CCC605 /* DragDropCollectionView.swift */; };
+		371C1A65A79396D04E7BD098BB52F3AE /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A7677CBC604E13438D99F68341BA6D /* UserInteractionFunctions.swift */; };
+		44EAE458BED20531212FAE3246B6350C /* JTAppleCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E9092BDD3DB69E4CCEAB3DDE59045 /* JTAppleCalendarLayoutProtocol.swift */; };
+		51E289A4F6958E630FD45B6DD40FE81D /* DNDDragAndDrop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C26D38028E79A306177428955F630C14 /* DNDDragAndDrop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52CB24003B0C56C788739EF3F2D92DBF /* JTAppleCalendarVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91A142951FB6EA8EB83DB63020D7A72 /* JTAppleCalendarVariables.swift */; };
+		5440CA022E5FF58906409AD75F798024 /* DNDDragOperation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2C1DAAC5292650E7B35699149467B3 /* DNDDragOperation_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5965C26D8E93E2AC552D5165EE610181 /* DNDDragOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC30D010265B28D14BA90248CE77F9B4 /* DNDDragOperation.m */; };
+		62AE4C01F0FD029C69064E885E8CECB2 /* InternalActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA3284430AB81D78B1EA75B6BA1B352 /* InternalActionFunctions.swift */; };
+		6449EBADAC7569F8F32C370EB52412B2 /* Pods-Calendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0078A9A3A84308932C9B0B7ED6FBB643 /* Pods-Calendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C560B287EB30C0F42B1282B0305AD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		6DE3875930E2A44854A28CFEC04F1992 /* JTAppleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE798A51A9341BB423A05AB8545D0D14 /* JTAppleCell.swift */; };
+		70DEC6DC8B9BC134EBA9703AB662001D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		732791936803EA17C15C484FE363E66D /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D119E9AE3A4880B26462642F2EF05CF /* GlobalFunctionsAndExtensions.swift */; };
+		7573593FBE25F85B79E10A7333E583E7 /* JTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85351EE73401983C486E4D92D6F6C00 /* JTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BF6D2DE88FA18F3A0A1ECE15A8F3E6E /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7786F24066A54239FBFB3C8C863C6D /* UICollectionViewDelegates.swift */; };
+		84DDDB053404246DE3D37B56171C9C55 /* DragDropTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A559E9DCE9238A0505449EB2FDB5C /* DragDropTableView.swift */; };
+		868DA15495B62128DFA8BB5C4B1F6DED /* DNDDragAndDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD97F284D2808298D5330391DCFADA2 /* DNDDragAndDropController.m */; };
+		89C3EC32079226CDBA9AD664CFD3DB7B /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B91C4296C9B06344BC1C030A015BED0 /* JTAppleCalendarView.swift */; };
+		9491C95BD62AA088D4AD4F4A6B21BC6F /* Pods-Calendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E6A0620FB6F3273FAA8D584A9E1E5F /* Pods-Calendar-dummy.m */; };
+		9BB7B2A17C7A349785EDB50443345AF0 /* DragDropiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE366958130AABE17404380FF5EB1A28 /* DragDropiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D51A8ADC90310C8270F5C86B7CEB379 /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA51FAD6EB19A66499772E578AD106F /* UIScrollViewDelegates.swift */; };
+		9FC6C8FF22D45590A4CC466CDE175749 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486478D2086456761F7BCD777DE7F4EF /* JTAppleCollectionReusableView.swift */; };
+		A4C1B448C29881E5C87EC8A87F667114 /* DNDLongPressDragRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90600A86503B99F60887DF4CDD8D250D /* DNDLongPressDragRecognizer.m */; };
+		A9A110279F3650CD3BD01F3BF50FC5AA /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8645099E81ED99BB40EE44D8F8D2E /* CalendarStructs.swift */; };
+		B36D1BA39C9EE5270666C47D52F80B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		B40C2B5113D3FBA4C47DB4F5DAC1922C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		B95FE078CFD340D8F475DE83245F927C /* InternalQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A687373C547DF546BFCDF35A8536178F /* InternalQueryFunctions.swift */; };
+		C1B6669E99C4AE54D8A0E5265C1F67FB /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128BD2327DD54FC039610AC1F0DC2F76 /* JTAppleCalendarLayout.swift */; };
+		D230A9B19E26CFC60073CD2D1BEF0D9F /* DNDDragHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D65E503038ADCCA13215A5B61C41A04D /* DNDDragHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9E3ECE925F04EDB693A56833A57D339 /* DNDDragAndDropController.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D01A2942760102B97EB59BF86046A9 /* DNDDragAndDropController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCBDF743A44BB96A8B97F280531D15C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		E1778A7661A4317422253BC8534D98A2 /* DNDDragAndDrop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B42B3D2748617AA7A9A84583460440 /* DNDDragAndDrop-dummy.m */; };
+		E824E5686FA7E8303C4601097FBAC23F /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F91A82A3E9187DFEE5268722B3E6EB5 /* JTCalendarProtocols.swift */; };
+		F2CCEDDB901C43F7310A4173AE142FAA /* DNDDragOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCFCECC3D6D23023E18D040299AD283 /* DNDDragOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F8FE98FBE2455E87F7E41D20FA4194 /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C349BBC55AC70F4FEF7C711F40183B /* CalendarEnums.swift */; };
+		FE1689779B1ABFD6586C76E20297224D /* JTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 763365182902EE5B3C2DA424774DEAD7 /* JTAppleCalendar-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		541CD77DBC07015C2EA775B4AA186273 /* PBXContainerItemProxy */ = {
+		60AE45F94F56AA25AE10A4EE76C45093 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC2F556AD6E7962DC899A8D0135AF232;
-			remoteInfo = KDDragAndDropCollectionViews;
+			remoteGlobalIDString = 5EB39793FF8D4816782B45B12F94903A;
+			remoteInfo = DragDropiOS;
 		};
-		6B6B8B8B1270B377F7D2EDF100DFC012 /* PBXContainerItemProxy */ = {
+		DF088123B0869854A373D59C36CF9B55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 791E7B776DC18FAFD9755F8BBA33233B;
+			remoteGlobalIDString = 4D5B8B1BE64F80268007C79821DDDC20;
 			remoteInfo = JTAppleCalendar;
 		};
-		7520E5A98411B108CBBB57AD60935DD8 /* PBXContainerItemProxy */ = {
+		F143E376719B15CB92249172D049BF1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F99A29D889F7DCD5935C0AAD8116851D;
+			remoteGlobalIDString = 69BD8263DE96B3ED5BD651D6437AC4A0;
 			remoteInfo = DNDDragAndDrop;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0078A9A3A84308932C9B0B7ED6FBB643 /* Pods-Calendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Calendar-umbrella.h"; sourceTree = "<group>"; };
-		00C17B59AEB9E05F6F9161EE337987A7 /* KDDragAndDropCollectionViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDDragAndDropCollectionViews.modulemap; sourceTree = "<group>"; };
-		00D9FA07F6B54F7F3DE6F1A66FEAB9B5 /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = Sources/UserInteractionFunctions.swift; sourceTree = "<group>"; };
-		01E44F5FFF6C9D3FA1B79005B1BAC14A /* DNDDragOperation_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragOperation_Private.h; path = "iOS Library/Sources/DNDDragOperation_Private.h"; sourceTree = "<group>"; };
-		0A2192978734839FE7F80A8F91AE71DB /* DNDDragAndDrop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNDDragAndDrop-dummy.m"; sourceTree = "<group>"; };
-		0B38C8D1AC701B79D9764CCFB1AD5510 /* JTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
-		106D1DC682F87C84F2710EF1D1C390A0 /* CalendarStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarStructs.swift; path = Sources/CalendarStructs.swift; sourceTree = "<group>"; };
-		13C592BDAC515D2060FF44E3FDDB78EF /* KDDragAndDropCollectionViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDDragAndDropCollectionViews.xcconfig; sourceTree = "<group>"; };
+		01017EB2CCCC810DBFCFD9C8A6FFCC97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E4C9C67B5FCFCE7EDD7CFE2DBD1DDC /* DragDropiOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragDropiOS.swift; path = DragDropiOS/Classes/DragDropiOS.swift; sourceTree = "<group>"; };
+		0B91C4296C9B06344BC1C030A015BED0 /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = Sources/JTAppleCalendarView.swift; sourceTree = "<group>"; };
+		1151BEBF58B732FFE36B24952C9CEA79 /* DNDDragAndDrop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNDDragAndDrop.xcconfig; sourceTree = "<group>"; };
+		128BD2327DD54FC039610AC1F0DC2F76 /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
+		13A7677CBC604E13438D99F68341BA6D /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = Sources/UserInteractionFunctions.swift; sourceTree = "<group>"; };
+		15387948D9C81B506E8EBCAB3BB50A3A /* JTAppleCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegateProtocol.swift; path = Sources/JTAppleCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
+		1567D2BF45945436ADE6F1C895FAC4A8 /* DragDropiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragDropiOS-dummy.m"; sourceTree = "<group>"; };
 		16E6A0620FB6F3273FAA8D584A9E1E5F /* Pods-Calendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Calendar-dummy.m"; sourceTree = "<group>"; };
+		1745FA059EE0F6F939E25D2FCC77254F /* DNDDragAndDropController_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragAndDropController_Private.h; path = "iOS Library/Sources/DNDDragAndDropController_Private.h"; sourceTree = "<group>"; };
+		18B42B3D2748617AA7A9A84583460440 /* DNDDragAndDrop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNDDragAndDrop-dummy.m"; sourceTree = "<group>"; };
 		1938577E405CEB625F3F40783FC76279 /* Pods-Calendar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Calendar-frameworks.sh"; sourceTree = "<group>"; };
-		1A7B1529DFAFEBDFD2D4DEE248773B60 /* DNDDragOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNDDragOperation.m; path = "iOS Library/Sources/DNDDragOperation.m"; sourceTree = "<group>"; };
-		1ADC7960EFBCA52FFB8D5B83AD937979 /* InternalActionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalActionFunctions.swift; path = Sources/InternalActionFunctions.swift; sourceTree = "<group>"; };
-		1E01568A23B4FBCD8C3314A7BE863293 /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
-		223F428C92D1E3AFF2D5EA6F56CFFAF7 /* InternalQueryFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalQueryFunctions.swift; path = Sources/InternalQueryFunctions.swift; sourceTree = "<group>"; };
-		225E778EF44F859383912674A8A4EDD9 /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = Sources/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
-		2363A96456AB3FDFC82F79BA6526ABB9 /* DNDLongPressDragRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNDLongPressDragRecognizer.m; path = "iOS Library/Sources/DNDLongPressDragRecognizer.m"; sourceTree = "<group>"; };
+		1BD97F284D2808298D5330391DCFADA2 /* DNDDragAndDropController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNDDragAndDropController.m; path = "iOS Library/Sources/DNDDragAndDropController.m"; sourceTree = "<group>"; };
+		1E6E9092BDD3DB69E4CCEAB3DDE59045 /* JTAppleCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayoutProtocol.swift; path = Sources/JTAppleCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
+		215A559E9DCE9238A0505449EB2FDB5C /* DragDropTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragDropTableView.swift; path = DragDropiOS/Classes/DragDropTableView.swift; sourceTree = "<group>"; };
+		26EB60C066ED5C248E5C4EEA24537D79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AA743ECD89C5AB82C4AA9D1F1054667 /* Pods-Calendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Calendar.modulemap"; sourceTree = "<group>"; };
-		2BE59D0F597E91E6A82B77BFAEDEE7EA /* DNDDragAndDropController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNDDragAndDropController.m; path = "iOS Library/Sources/DNDDragAndDropController.m"; sourceTree = "<group>"; };
-		2E019581C2AC0AF97B79ABD9328DF91A /* JTAppleCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegateProtocol.swift; path = Sources/JTAppleCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
-		2F26B61587D1081CFAFEA67D670AF176 /* JTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTAppleCalendar.modulemap; sourceTree = "<group>"; };
-		32FA8557731E7714092C03FC2113968A /* DNDDragAndDropController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragAndDropController.h; path = "iOS Library/Sources/DNDDragAndDropController.h"; sourceTree = "<group>"; };
-		35F7D5268E9019E9347A009094F90DE0 /* JTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
-		38D429AF12011D1EE8F7DB92C970D2F4 /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = Sources/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
-		39DFF8E5EDBC32CF1EF2AD2FA9B196A4 /* CalendarEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEnums.swift; path = Sources/CalendarEnums.swift; sourceTree = "<group>"; };
-		469AE492678772117C2B72BC4B22CB8A /* KDDragAndDropCollectionViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDDragAndDropCollectionViews-dummy.m"; sourceTree = "<group>"; };
-		4994AFA02D07327379BBBEF1739E7486 /* KDDragAndDropCollectionViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDDragAndDropCollectionViews-prefix.pch"; sourceTree = "<group>"; };
+		2C73A8B92B7A590A9D3A15E1224B7143 /* DNDDragHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNDDragHandler.m; path = "iOS Library/Sources/DNDDragHandler.m"; sourceTree = "<group>"; };
+		2EF3A320951F80BB913D4709F7B7DF9B /* JTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTAppleCalendar.modulemap; sourceTree = "<group>"; };
+		3486923820D2814812EC757AE9BD74F6 /* DragDropiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragDropiOS.framework; path = DragDropiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF26AF1C1A685E15566CC92D10549E2 /* DragDropManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragDropManager.swift; path = DragDropiOS/Classes/DragDropManager.swift; sourceTree = "<group>"; };
+		41C349BBC55AC70F4FEF7C711F40183B /* CalendarEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEnums.swift; path = Sources/CalendarEnums.swift; sourceTree = "<group>"; };
+		41D01A2942760102B97EB59BF86046A9 /* DNDDragAndDropController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragAndDropController.h; path = "iOS Library/Sources/DNDDragAndDropController.h"; sourceTree = "<group>"; };
+		486478D2086456761F7BCD777DE7F4EF /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = Sources/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
 		4D6A91BE0BDE1DFD7B68EF59CDE3FE57 /* Pods-Calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Calendar.debug.xcconfig"; sourceTree = "<group>"; };
-		4D82D5152CF0B57C5CED17A8EB83258B /* DNDDragAndDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DNDDragAndDrop.framework; path = DNDDragAndDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E44AC8DE57F7CC5CF4595BA02C562C0 /* DNDDragHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNDDragHandler.m; path = "iOS Library/Sources/DNDDragHandler.m"; sourceTree = "<group>"; };
-		4F1CBE92B9DB83DF2D8D56642B4EEC5C /* DNDDragOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragOperation.h; path = "iOS Library/Sources/DNDDragOperation.h"; sourceTree = "<group>"; };
-		5D0A73F845DEF0142646161E40F71C28 /* JTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
-		610F8EE1B40EF3B3751CBF4ADC11E2C1 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTAppleCalendar.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		622AEE910554DB6FDAA7F4D943369C4B /* DNDLongPressDragRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDLongPressDragRecognizer.h; path = "iOS Library/Sources/DNDLongPressDragRecognizer.h"; sourceTree = "<group>"; };
-		637B368F369E364B043456E682C78B1E /* DNDDragHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragHandler.h; path = "iOS Library/Sources/DNDDragHandler.h"; sourceTree = "<group>"; };
+		50437143A7CC2578C6ABAEE858EC8DA4 /* DNDDragAndDrop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragAndDrop.h; path = "iOS Library/Sources/DNDDragAndDrop.h"; sourceTree = "<group>"; };
 		676D1F2EC5F789D6200A697DFEA495DD /* Pods-Calendar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Calendar-resources.sh"; sourceTree = "<group>"; };
-		686ADC38CB34B94FF3172873598FA28B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68D102E79357C814BC33E9E1899F254E /* DNDDragAndDrop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DNDDragAndDrop.modulemap; sourceTree = "<group>"; };
-		6C5BB1953CF70286E8A9A0607AFF7F5B /* JTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTAppleCalendar.xcconfig; sourceTree = "<group>"; };
-		701998D9DF522D7983BCEF4FB40DAD6C /* JTAppleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCell.swift; path = Sources/JTAppleCell.swift; sourceTree = "<group>"; };
-		7144109913153854E7FB43BE71EA44F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76614F6730CCC0F52D35259F24A59ED0 /* DNDDragAndDrop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragAndDrop.h; path = "iOS Library/Sources/DNDDragAndDrop.h"; sourceTree = "<group>"; };
-		767BE3EE7F5E843D9261F610699320AD /* DNDDragAndDrop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNDDragAndDrop.xcconfig; sourceTree = "<group>"; };
-		7DB014B2C7F45D332E0BE922FFB00A6D /* DNDDragAndDrop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNDDragAndDrop-umbrella.h"; sourceTree = "<group>"; };
-		80994C9033C793B7251A3CE483324930 /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = Sources/JTAppleCalendarView.swift; sourceTree = "<group>"; };
+		73392816EDD267AE24166394E9E5D0A4 /* DragDropiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragDropiOS.xcconfig; sourceTree = "<group>"; };
+		74AB1D7ED5CA604F13C3C9B120D72E8E /* DNDDragAndDrop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DNDDragAndDrop.modulemap; sourceTree = "<group>"; };
+		763365182902EE5B3C2DA424774DEAD7 /* JTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
+		7D119E9AE3A4880B26462642F2EF05CF /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = Sources/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		8104E298D46C9B93BD7A85E5F1A5182D /* DNDDragAndDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DNDDragAndDrop.framework; path = DNDDragAndDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E93CAFDB7E4DE5283A0018F76DE8D5B /* Pods_Calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Calendar.framework; path = "Pods-Calendar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F91A82A3E9187DFEE5268722B3E6EB5 /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = Sources/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		90600A86503B99F60887DF4CDD8D250D /* DNDLongPressDragRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNDLongPressDragRecognizer.m; path = "iOS Library/Sources/DNDLongPressDragRecognizer.m"; sourceTree = "<group>"; };
+		9064A6FE68632AF3188FB2B563A28963 /* DNDDragAndDrop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNDDragAndDrop-prefix.pch"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		977FF959385248DB01E2707836EE4449 /* KDDragAndDropCollectionViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KDDragAndDropCollectionViews.framework; path = KDDragAndDropCollectionViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AC07E0F4333FD2E55D1DDEA3AA4076 /* DragDropiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DragDropiOS.modulemap; sourceTree = "<group>"; };
 		9B745F879008C0C9264A28392B26DE5F /* Pods-Calendar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Calendar-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B9C826CD7AF7D54DDCB152CD5900771 /* KDDragAndDropCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KDDragAndDropCollectionView.swift; path = Classes/KDDragAndDropCollectionView.swift; sourceTree = "<group>"; };
-		A0D3A6AF67A69F65E9E4380C7E061A51 /* Pods_Calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Calendar.framework; path = "Pods-Calendar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D9135BDCDDB69B6BC34957695BBAE8 /* DNDLongPressDragRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDLongPressDragRecognizer.h; path = "iOS Library/Sources/DNDLongPressDragRecognizer.h"; sourceTree = "<group>"; };
+		A2E8645099E81ED99BB40EE44D8F8D2E /* CalendarStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarStructs.swift; path = Sources/CalendarStructs.swift; sourceTree = "<group>"; };
 		A3881A0090C7EF2514F9B955E331A75B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6408E2B34E61C1DC6426C7653953BF6 /* JTAppleCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayoutProtocol.swift; path = Sources/JTAppleCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
-		B7D66A92A44EFB104D211A74D705FE0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56FA42B9A46F4E6AB7F5834EB45AFFF /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTAppleCalendar.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A687373C547DF546BFCDF35A8536178F /* InternalQueryFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalQueryFunctions.swift; path = Sources/InternalQueryFunctions.swift; sourceTree = "<group>"; };
+		AB7786F24066A54239FBFB3C8C863C6D /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
+		AC30D010265B28D14BA90248CE77F9B4 /* DNDDragOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNDDragOperation.m; path = "iOS Library/Sources/DNDDragOperation.m"; sourceTree = "<group>"; };
+		B6DF663F0D2F830F9A2360F6D1B759A5 /* DragDropiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropiOS-prefix.pch"; sourceTree = "<group>"; };
+		B91A142951FB6EA8EB83DB63020D7A72 /* JTAppleCalendarVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarVariables.swift; path = Sources/JTAppleCalendarVariables.swift; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC2C1DAAC5292650E7B35699149467B3 /* DNDDragOperation_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragOperation_Private.h; path = "iOS Library/Sources/DNDDragOperation_Private.h"; sourceTree = "<group>"; };
+		BE798A51A9341BB423A05AB8545D0D14 /* JTAppleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCell.swift; path = Sources/JTAppleCell.swift; sourceTree = "<group>"; };
+		BE879D5FBF061C07C787115F505C72A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCFCECC3D6D23023E18D040299AD283 /* DNDDragOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragOperation.h; path = "iOS Library/Sources/DNDDragOperation.h"; sourceTree = "<group>"; };
 		C1109789980C096DB12059377E364536 /* Pods-Calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Calendar.release.xcconfig"; sourceTree = "<group>"; };
-		C7A8776D0017881483C968C143FDF278 /* DNDDragAndDropController_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragAndDropController_Private.h; path = "iOS Library/Sources/DNDDragAndDropController_Private.h"; sourceTree = "<group>"; };
+		C26D38028E79A306177428955F630C14 /* DNDDragAndDrop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNDDragAndDrop-umbrella.h"; sourceTree = "<group>"; };
+		D65E503038ADCCA13215A5B61C41A04D /* DNDDragHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNDDragHandler.h; path = "iOS Library/Sources/DNDDragHandler.h"; sourceTree = "<group>"; };
 		D7E2F2918AE826CADB554B150769612F /* Pods-Calendar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Calendar-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DCD2F1919682E160633219EE89AC7DAD /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewDelegates.swift; path = Sources/UIScrollViewDelegates.swift; sourceTree = "<group>"; };
-		DF250C29FC0A17D5DC74381B31695014 /* DNDDragAndDrop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNDDragAndDrop-prefix.pch"; sourceTree = "<group>"; };
-		EE2FB5218DDD0ABEB02AC8ADC979A1F8 /* KDDragAndDropManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KDDragAndDropManager.swift; path = Classes/KDDragAndDropManager.swift; sourceTree = "<group>"; };
-		F87D33629FB6FA659AF898DFA206888B /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
-		FA2F3D1F5EC711B1533BF1E753FFE62E /* JTAppleCalendarVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarVariables.swift; path = Sources/JTAppleCalendarVariables.swift; sourceTree = "<group>"; };
-		FD18173064B61261D51BEAEEC600506A /* KDDragAndDropCollectionViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDDragAndDropCollectionViews-umbrella.h"; sourceTree = "<group>"; };
-		FF442BCF6D32D953B55B7BCAE8EC85BF /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = Sources/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		D85351EE73401983C486E4D92D6F6C00 /* JTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
+		DDA3284430AB81D78B1EA75B6BA1B352 /* InternalActionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalActionFunctions.swift; path = Sources/InternalActionFunctions.swift; sourceTree = "<group>"; };
+		DE366958130AABE17404380FF5EB1A28 /* DragDropiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropiOS-umbrella.h"; sourceTree = "<group>"; };
+		E119148BD6A65F0ADEBC1B0DD4F02F59 /* JTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTAppleCalendar.xcconfig; sourceTree = "<group>"; };
+		E14B0C305FD5151CAC7347AA56AA590D /* JTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
+		F84CA5BB036D23A337B0683ED5CCC605 /* DragDropCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragDropCollectionView.swift; path = DragDropiOS/Classes/DragDropCollectionView.swift; sourceTree = "<group>"; };
+		FDA51FAD6EB19A66499772E578AD106F /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewDelegates.swift; path = Sources/UIScrollViewDelegates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0280EF87B2907100280E7942FE43161A /* Frameworks */ = {
+		1F52A51717EA007CD32A41E453CDF459 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847586512B615F7522ED72BE778C6C1E /* Foundation.framework in Frameworks */,
+				B36D1BA39C9EE5270666C47D52F80B1C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4886B6CE535E7A486422ABAF4D3BE39 /* Frameworks */ = {
+		6208A34CF68BE77CDF6F6733FC8DB24D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D41224EA6D8E16C61D3140DC13B9B01 /* Foundation.framework in Frameworks */,
+				B40C2B5113D3FBA4C47DB4F5DAC1922C /* Foundation.framework in Frameworks */,
+				70DEC6DC8B9BC134EBA9703AB662001D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1A8114F34793101189A2B833A492AFD /* Frameworks */ = {
+		6C0E68D7B3B247C1CA83F79AD0196C2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADFC3F86641D9C86BA1256A4E91490DC /* Foundation.framework in Frameworks */,
-				63789288F05B1106F3C2E198CBB882A4 /* UIKit.framework in Frameworks */,
+				DCBDF743A44BB96A8B97F280531D15C9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E980C0E84814A04E98302359C7C9371A /* Frameworks */ = {
+		A355C02E71ED2A0CDC5AFDB7AC038AD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04674178E4647F4F39CF00BE78F6E326 /* Foundation.framework in Frameworks */,
+				64C560B287EB30C0F42B1282B0305AD7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,29 +218,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		2CCBC4E32C745F9A80D326456BFA2135 /* Support Files */ = {
+		2D5BE1DA644D360DD00714CA2F85098C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7144109913153854E7FB43BE71EA44F0 /* Info.plist */,
-				00C17B59AEB9E05F6F9161EE337987A7 /* KDDragAndDropCollectionViews.modulemap */,
-				13C592BDAC515D2060FF44E3FDDB78EF /* KDDragAndDropCollectionViews.xcconfig */,
-				469AE492678772117C2B72BC4B22CB8A /* KDDragAndDropCollectionViews-dummy.m */,
-				4994AFA02D07327379BBBEF1739E7486 /* KDDragAndDropCollectionViews-prefix.pch */,
-				FD18173064B61261D51BEAEEC600506A /* KDDragAndDropCollectionViews-umbrella.h */,
+				74AB1D7ED5CA604F13C3C9B120D72E8E /* DNDDragAndDrop.modulemap */,
+				1151BEBF58B732FFE36B24952C9CEA79 /* DNDDragAndDrop.xcconfig */,
+				18B42B3D2748617AA7A9A84583460440 /* DNDDragAndDrop-dummy.m */,
+				9064A6FE68632AF3188FB2B563A28963 /* DNDDragAndDrop-prefix.pch */,
+				C26D38028E79A306177428955F630C14 /* DNDDragAndDrop-umbrella.h */,
+				BE879D5FBF061C07C787115F505C72A9 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KDDragAndDropCollectionViews";
+			path = "../Target Support Files/DNDDragAndDrop";
 			sourceTree = "<group>";
 		};
-		3A3899BCA96B6C75546092450AFA0B3E /* KDDragAndDropCollectionViews */ = {
+		3D18C47EEA4D0AD2CB82BAD49437D04F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B9C826CD7AF7D54DDCB152CD5900771 /* KDDragAndDropCollectionView.swift */,
-				EE2FB5218DDD0ABEB02AC8ADC979A1F8 /* KDDragAndDropManager.swift */,
-				2CCBC4E32C745F9A80D326456BFA2135 /* Support Files */,
+				65936F4EDBE678EE0A4CD2393CD91A97 /* DNDDragAndDrop */,
+				5F81406C2F9F3740A9E622019C871975 /* DragDropiOS */,
+				F40DF779C24A487892A1448BB8E51497 /* JTAppleCalendar */,
 			);
-			name = KDDragAndDropCollectionViews;
-			path = KDDragAndDropCollectionViews;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -247,43 +250,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		66752CD8D26DD2075A8FD8DF0C03D01E /* JTAppleCalendar */ = {
+		5F81406C2F9F3740A9E622019C871975 /* DragDropiOS */ = {
 			isa = PBXGroup;
 			children = (
-				39DFF8E5EDBC32CF1EF2AD2FA9B196A4 /* CalendarEnums.swift */,
-				106D1DC682F87C84F2710EF1D1C390A0 /* CalendarStructs.swift */,
-				38D429AF12011D1EE8F7DB92C970D2F4 /* GlobalFunctionsAndExtensions.swift */,
-				1ADC7960EFBCA52FFB8D5B83AD937979 /* InternalActionFunctions.swift */,
-				223F428C92D1E3AFF2D5EA6F56CFFAF7 /* InternalQueryFunctions.swift */,
-				2E019581C2AC0AF97B79ABD9328DF91A /* JTAppleCalendarDelegateProtocol.swift */,
-				F87D33629FB6FA659AF898DFA206888B /* JTAppleCalendarLayout.swift */,
-				B6408E2B34E61C1DC6426C7653953BF6 /* JTAppleCalendarLayoutProtocol.swift */,
-				FA2F3D1F5EC711B1533BF1E753FFE62E /* JTAppleCalendarVariables.swift */,
-				80994C9033C793B7251A3CE483324930 /* JTAppleCalendarView.swift */,
-				701998D9DF522D7983BCEF4FB40DAD6C /* JTAppleCell.swift */,
-				225E778EF44F859383912674A8A4EDD9 /* JTAppleCollectionReusableView.swift */,
-				FF442BCF6D32D953B55B7BCAE8EC85BF /* JTCalendarProtocols.swift */,
-				1E01568A23B4FBCD8C3314A7BE863293 /* UICollectionViewDelegates.swift */,
-				DCD2F1919682E160633219EE89AC7DAD /* UIScrollViewDelegates.swift */,
-				00D9FA07F6B54F7F3DE6F1A66FEAB9B5 /* UserInteractionFunctions.swift */,
-				FD1BC1C1E91CF02E94DA4146B1BF924B /* Support Files */,
+				F84CA5BB036D23A337B0683ED5CCC605 /* DragDropCollectionView.swift */,
+				01E4C9C67B5FCFCE7EDD7CFE2DBD1DDC /* DragDropiOS.swift */,
+				3FF26AF1C1A685E15566CC92D10549E2 /* DragDropManager.swift */,
+				215A559E9DCE9238A0505449EB2FDB5C /* DragDropTableView.swift */,
+				F78F396B95CD19D391BD0F13E06ABBE0 /* Support Files */,
 			);
-			name = JTAppleCalendar;
-			path = JTAppleCalendar;
+			name = DragDropiOS;
+			path = DragDropiOS;
 			sourceTree = "<group>";
 		};
-		76DC03A72274032DC9A72A4C2D391A58 /* Support Files */ = {
+		65936F4EDBE678EE0A4CD2393CD91A97 /* DNDDragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
-				68D102E79357C814BC33E9E1899F254E /* DNDDragAndDrop.modulemap */,
-				767BE3EE7F5E843D9261F610699320AD /* DNDDragAndDrop.xcconfig */,
-				0A2192978734839FE7F80A8F91AE71DB /* DNDDragAndDrop-dummy.m */,
-				DF250C29FC0A17D5DC74381B31695014 /* DNDDragAndDrop-prefix.pch */,
-				7DB014B2C7F45D332E0BE922FFB00A6D /* DNDDragAndDrop-umbrella.h */,
-				686ADC38CB34B94FF3172873598FA28B /* Info.plist */,
+				50437143A7CC2578C6ABAEE858EC8DA4 /* DNDDragAndDrop.h */,
+				41D01A2942760102B97EB59BF86046A9 /* DNDDragAndDropController.h */,
+				1BD97F284D2808298D5330391DCFADA2 /* DNDDragAndDropController.m */,
+				1745FA059EE0F6F939E25D2FCC77254F /* DNDDragAndDropController_Private.h */,
+				D65E503038ADCCA13215A5B61C41A04D /* DNDDragHandler.h */,
+				2C73A8B92B7A590A9D3A15E1224B7143 /* DNDDragHandler.m */,
+				BFCFCECC3D6D23023E18D040299AD283 /* DNDDragOperation.h */,
+				AC30D010265B28D14BA90248CE77F9B4 /* DNDDragOperation.m */,
+				BC2C1DAAC5292650E7B35699149467B3 /* DNDDragOperation_Private.h */,
+				A2D9135BDCDDB69B6BC34957695BBAE8 /* DNDLongPressDragRecognizer.h */,
+				90600A86503B99F60887DF4CDD8D250D /* DNDLongPressDragRecognizer.m */,
+				2D5BE1DA644D360DD00714CA2F85098C /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DNDDragAndDrop";
+			name = DNDDragAndDrop;
+			path = DNDDragAndDrop;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -291,120 +288,128 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				D3BFB4C0A0A37FE6EE66F67089E1B95E /* Pods */,
-				B7B1F46CA4D7708568BD78F082D515F5 /* Products */,
+				3D18C47EEA4D0AD2CB82BAD49437D04F /* Pods */,
+				DA0497EBD937BB861A757A1971B9CCD4 /* Products */,
 				086C62834196A483A667AFC64EC4787D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B7B1F46CA4D7708568BD78F082D515F5 /* Products */ = {
+		917DB1829B081019D2B7019B6028A1F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D82D5152CF0B57C5CED17A8EB83258B /* DNDDragAndDrop.framework */,
-				610F8EE1B40EF3B3751CBF4ADC11E2C1 /* JTAppleCalendar.framework */,
-				977FF959385248DB01E2707836EE4449 /* KDDragAndDropCollectionViews.framework */,
-				A0D3A6AF67A69F65E9E4380C7E061A51 /* Pods_Calendar.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CB8C3C9271DC9870C3976E2D332AE2B3 /* DNDDragAndDrop */ = {
-			isa = PBXGroup;
-			children = (
-				76614F6730CCC0F52D35259F24A59ED0 /* DNDDragAndDrop.h */,
-				32FA8557731E7714092C03FC2113968A /* DNDDragAndDropController.h */,
-				2BE59D0F597E91E6A82B77BFAEDEE7EA /* DNDDragAndDropController.m */,
-				C7A8776D0017881483C968C143FDF278 /* DNDDragAndDropController_Private.h */,
-				637B368F369E364B043456E682C78B1E /* DNDDragHandler.h */,
-				4E44AC8DE57F7CC5CF4595BA02C562C0 /* DNDDragHandler.m */,
-				4F1CBE92B9DB83DF2D8D56642B4EEC5C /* DNDDragOperation.h */,
-				1A7B1529DFAFEBDFD2D4DEE248773B60 /* DNDDragOperation.m */,
-				01E44F5FFF6C9D3FA1B79005B1BAC14A /* DNDDragOperation_Private.h */,
-				622AEE910554DB6FDAA7F4D943369C4B /* DNDLongPressDragRecognizer.h */,
-				2363A96456AB3FDFC82F79BA6526ABB9 /* DNDLongPressDragRecognizer.m */,
-				76DC03A72274032DC9A72A4C2D391A58 /* Support Files */,
-			);
-			name = DNDDragAndDrop;
-			path = DNDDragAndDrop;
-			sourceTree = "<group>";
-		};
-		D3BFB4C0A0A37FE6EE66F67089E1B95E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CB8C3C9271DC9870C3976E2D332AE2B3 /* DNDDragAndDrop */,
-				66752CD8D26DD2075A8FD8DF0C03D01E /* JTAppleCalendar */,
-				3A3899BCA96B6C75546092450AFA0B3E /* KDDragAndDropCollectionViews */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FD1BC1C1E91CF02E94DA4146B1BF924B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B7D66A92A44EFB104D211A74D705FE0F /* Info.plist */,
-				2F26B61587D1081CFAFEA67D670AF176 /* JTAppleCalendar.modulemap */,
-				6C5BB1953CF70286E8A9A0607AFF7F5B /* JTAppleCalendar.xcconfig */,
-				35F7D5268E9019E9347A009094F90DE0 /* JTAppleCalendar-dummy.m */,
-				5D0A73F845DEF0142646161E40F71C28 /* JTAppleCalendar-prefix.pch */,
-				0B38C8D1AC701B79D9764CCFB1AD5510 /* JTAppleCalendar-umbrella.h */,
+				01017EB2CCCC810DBFCFD9C8A6FFCC97 /* Info.plist */,
+				2EF3A320951F80BB913D4709F7B7DF9B /* JTAppleCalendar.modulemap */,
+				E119148BD6A65F0ADEBC1B0DD4F02F59 /* JTAppleCalendar.xcconfig */,
+				763365182902EE5B3C2DA424774DEAD7 /* JTAppleCalendar-dummy.m */,
+				E14B0C305FD5151CAC7347AA56AA590D /* JTAppleCalendar-prefix.pch */,
+				D85351EE73401983C486E4D92D6F6C00 /* JTAppleCalendar-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JTAppleCalendar";
 			sourceTree = "<group>";
 		};
+		DA0497EBD937BB861A757A1971B9CCD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8104E298D46C9B93BD7A85E5F1A5182D /* DNDDragAndDrop.framework */,
+				3486923820D2814812EC757AE9BD74F6 /* DragDropiOS.framework */,
+				A56FA42B9A46F4E6AB7F5834EB45AFFF /* JTAppleCalendar.framework */,
+				8E93CAFDB7E4DE5283A0018F76DE8D5B /* Pods_Calendar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40DF779C24A487892A1448BB8E51497 /* JTAppleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				41C349BBC55AC70F4FEF7C711F40183B /* CalendarEnums.swift */,
+				A2E8645099E81ED99BB40EE44D8F8D2E /* CalendarStructs.swift */,
+				7D119E9AE3A4880B26462642F2EF05CF /* GlobalFunctionsAndExtensions.swift */,
+				DDA3284430AB81D78B1EA75B6BA1B352 /* InternalActionFunctions.swift */,
+				A687373C547DF546BFCDF35A8536178F /* InternalQueryFunctions.swift */,
+				15387948D9C81B506E8EBCAB3BB50A3A /* JTAppleCalendarDelegateProtocol.swift */,
+				128BD2327DD54FC039610AC1F0DC2F76 /* JTAppleCalendarLayout.swift */,
+				1E6E9092BDD3DB69E4CCEAB3DDE59045 /* JTAppleCalendarLayoutProtocol.swift */,
+				B91A142951FB6EA8EB83DB63020D7A72 /* JTAppleCalendarVariables.swift */,
+				0B91C4296C9B06344BC1C030A015BED0 /* JTAppleCalendarView.swift */,
+				BE798A51A9341BB423A05AB8545D0D14 /* JTAppleCell.swift */,
+				486478D2086456761F7BCD777DE7F4EF /* JTAppleCollectionReusableView.swift */,
+				8F91A82A3E9187DFEE5268722B3E6EB5 /* JTCalendarProtocols.swift */,
+				AB7786F24066A54239FBFB3C8C863C6D /* UICollectionViewDelegates.swift */,
+				FDA51FAD6EB19A66499772E578AD106F /* UIScrollViewDelegates.swift */,
+				13A7677CBC604E13438D99F68341BA6D /* UserInteractionFunctions.swift */,
+				917DB1829B081019D2B7019B6028A1F1 /* Support Files */,
+			);
+			name = JTAppleCalendar;
+			path = JTAppleCalendar;
+			sourceTree = "<group>";
+		};
+		F78F396B95CD19D391BD0F13E06ABBE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AC07E0F4333FD2E55D1DDEA3AA4076 /* DragDropiOS.modulemap */,
+				73392816EDD267AE24166394E9E5D0A4 /* DragDropiOS.xcconfig */,
+				1567D2BF45945436ADE6F1C895FAC4A8 /* DragDropiOS-dummy.m */,
+				B6DF663F0D2F830F9A2360F6D1B759A5 /* DragDropiOS-prefix.pch */,
+				DE366958130AABE17404380FF5EB1A28 /* DragDropiOS-umbrella.h */,
+				26EB60C066ED5C248E5C4EEA24537D79 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DragDropiOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1192360C00569FA4A9C870C940F27896 /* Headers */ = {
+		17B466EED0EF9F9719F5C234C708C1BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88D169664BCB7446158CB4C3846F325E /* Pods-Calendar-umbrella.h in Headers */,
+				6449EBADAC7569F8F32C370EB52412B2 /* Pods-Calendar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DC7B7F335873A0A084B8E02BAD6577F /* Headers */ = {
+		5818876C702BBAD55D76D9B36D8371DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E040E06E8B202E3B865B11866B6751 /* KDDragAndDropCollectionViews-umbrella.h in Headers */,
+				9BB7B2A17C7A349785EDB50443345AF0 /* DragDropiOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		396310F30906BDD37C5D025A79251E3C /* Headers */ = {
+		C9D9C2DB22FE07A15EBCE4F66DDFDD01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A8C82118DF95DA82582ACCEA6EA3660 /* JTAppleCalendar-umbrella.h in Headers */,
+				51E289A4F6958E630FD45B6DD40FE81D /* DNDDragAndDrop-umbrella.h in Headers */,
+				35008FBCBD7E167830CE41BC92646774 /* DNDDragAndDrop.h in Headers */,
+				D9E3ECE925F04EDB693A56833A57D339 /* DNDDragAndDropController.h in Headers */,
+				1B1804BAC64B4C517D5B3C44B3C63901 /* DNDDragAndDropController_Private.h in Headers */,
+				D230A9B19E26CFC60073CD2D1BEF0D9F /* DNDDragHandler.h in Headers */,
+				F2CCEDDB901C43F7310A4173AE142FAA /* DNDDragOperation.h in Headers */,
+				5440CA022E5FF58906409AD75F798024 /* DNDDragOperation_Private.h in Headers */,
+				2AA9CAFE235D84A967E2C01BCE1DFD9A /* DNDLongPressDragRecognizer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB602F9A7D651EA55BC5C8B888677F68 /* Headers */ = {
+		D072C17A9D7E22B25810B81A357DAE56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB0D9E8EF0590C06E0DB14129E2832D /* DNDDragAndDrop-umbrella.h in Headers */,
-				F5ED1A57341587B88FFC6F82A2F2F6D2 /* DNDDragAndDrop.h in Headers */,
-				D9E26DF47F5C6EB3811EEA2F1583C963 /* DNDDragAndDropController.h in Headers */,
-				800FAC5049803E6807B23103D4CBE5F8 /* DNDDragAndDropController_Private.h in Headers */,
-				474E2861BC6E8D48123EAC03C8E3DBDF /* DNDDragHandler.h in Headers */,
-				3697783FD88CDB6D5333108508AB9118 /* DNDDragOperation.h in Headers */,
-				166F3D54B784AA1D3A3A3CC52467CC21 /* DNDDragOperation_Private.h in Headers */,
-				10F02DB96F08988DA14F7A47CF1CFEB0 /* DNDLongPressDragRecognizer.h in Headers */,
+				7573593FBE25F85B79E10A7333E583E7 /* JTAppleCalendar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */ = {
+		4D5B8B1BE64F80268007C79821DDDC20 /* JTAppleCalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0F2152DD82D40CD6D91FAD1CFDD1D4E /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */;
+			buildConfigurationList = 1E78F0AF2A8CFF29D1235D29F58A4E06 /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */;
 			buildPhases = (
-				396310F30906BDD37C5D025A79251E3C /* Headers */,
-				1EAB681C0A7F1A93441D57BFC66F8B81 /* Sources */,
-				0280EF87B2907100280E7942FE43161A /* Frameworks */,
-				035AF78EB87D614AB12BDFE858E8F1C6 /* Resources */,
+				9061D192B467744C06DC862BE82F57A5 /* Sources */,
+				1F52A51717EA007CD32A41E453CDF459 /* Frameworks */,
+				D072C17A9D7E22B25810B81A357DAE56 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -412,38 +417,33 @@
 			);
 			name = JTAppleCalendar;
 			productName = JTAppleCalendar;
-			productReference = 610F8EE1B40EF3B3751CBF4ADC11E2C1 /* JTAppleCalendar.framework */;
+			productReference = A56FA42B9A46F4E6AB7F5834EB45AFFF /* JTAppleCalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F6210BA39EFF489815307DC828C474AF /* Pods-Calendar */ = {
+		5EB39793FF8D4816782B45B12F94903A /* DragDropiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5775E261452488D2215754E63853D9FA /* Build configuration list for PBXNativeTarget "Pods-Calendar" */;
+			buildConfigurationList = A4A02A5B2943F93B2657F30B1A88F021 /* Build configuration list for PBXNativeTarget "DragDropiOS" */;
 			buildPhases = (
-				1192360C00569FA4A9C870C940F27896 /* Headers */,
-				94C60544D085B64047399E26F939A96F /* Sources */,
-				E980C0E84814A04E98302359C7C9371A /* Frameworks */,
-				468A4DBADD71D4F0D59F3C0F1F3B5CAF /* Resources */,
+				D4C75FC665D0158A25D413085DD8B436 /* Sources */,
+				A355C02E71ED2A0CDC5AFDB7AC038AD1 /* Frameworks */,
+				5818876C702BBAD55D76D9B36D8371DC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				36278643E70E0784D8F87F51E16A4839 /* PBXTargetDependency */,
-				655D4A388E0886EB9BAC972693FAC712 /* PBXTargetDependency */,
-				2CE8BEEFC841E1A8E3FDA04942BB07DD /* PBXTargetDependency */,
 			);
-			name = "Pods-Calendar";
-			productName = "Pods-Calendar";
-			productReference = A0D3A6AF67A69F65E9E4380C7E061A51 /* Pods_Calendar.framework */;
+			name = DragDropiOS;
+			productName = DragDropiOS;
+			productReference = 3486923820D2814812EC757AE9BD74F6 /* DragDropiOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F99A29D889F7DCD5935C0AAD8116851D /* DNDDragAndDrop */ = {
+		69BD8263DE96B3ED5BD651D6437AC4A0 /* DNDDragAndDrop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05734B6234EAB2E10074190120E443F /* Build configuration list for PBXNativeTarget "DNDDragAndDrop" */;
+			buildConfigurationList = A84555D6F4944E89A7FAC1A7645B1AE7 /* Build configuration list for PBXNativeTarget "DNDDragAndDrop" */;
 			buildPhases = (
-				FB602F9A7D651EA55BC5C8B888677F68 /* Headers */,
-				89F13633D0767F00D106EC5602B509DD /* Sources */,
-				D1A8114F34793101189A2B833A492AFD /* Frameworks */,
-				D533AAEB05522C3FF9789A877F43082D /* Resources */,
+				EF3C2C108FABE04B4E64E6552FE8F2CA /* Sources */,
+				6208A34CF68BE77CDF6F6733FC8DB24D /* Frameworks */,
+				C9D9C2DB22FE07A15EBCE4F66DDFDD01 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -451,25 +451,27 @@
 			);
 			name = DNDDragAndDrop;
 			productName = DNDDragAndDrop;
-			productReference = 4D82D5152CF0B57C5CED17A8EB83258B /* DNDDragAndDrop.framework */;
+			productReference = 8104E298D46C9B93BD7A85E5F1A5182D /* DNDDragAndDrop.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FC2F556AD6E7962DC899A8D0135AF232 /* KDDragAndDropCollectionViews */ = {
+		69FA6068711BE6AFEDC8EDA2D1F112C8 /* Pods-Calendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 299A47705A23DA6FC3FBCF9990220FBC /* Build configuration list for PBXNativeTarget "KDDragAndDropCollectionViews" */;
+			buildConfigurationList = F8877A205AD44938E6A8B0307CF74770 /* Build configuration list for PBXNativeTarget "Pods-Calendar" */;
 			buildPhases = (
-				2DC7B7F335873A0A084B8E02BAD6577F /* Headers */,
-				C5FEFBDAB8C73E81D060BB8CB5D980AB /* Sources */,
-				A4886B6CE535E7A486422ABAF4D3BE39 /* Frameworks */,
-				302C9DE1D43F83D0D376D07864AE6347 /* Resources */,
+				2A35D2ADABCF3F3DAF1AE5FA1467F1AD /* Sources */,
+				6C0E68D7B3B247C1CA83F79AD0196C2B /* Frameworks */,
+				17B466EED0EF9F9719F5C234C708C1BF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0D53F5D3F48EEFBD13FC16FA2E604FA2 /* PBXTargetDependency */,
+				61C1DE70B52BB1BE1B3F246D725DAD0F /* PBXTargetDependency */,
+				6D6198B13C66836EFC9E8B6ADC4A5076 /* PBXTargetDependency */,
 			);
-			name = KDDragAndDropCollectionViews;
-			productName = KDDragAndDropCollectionViews;
-			productReference = 977FF959385248DB01E2707836EE4449 /* KDDragAndDropCollectionViews.framework */;
+			name = "Pods-Calendar";
+			productName = "Pods-Calendar";
+			productReference = 8E93CAFDB7E4DE5283A0018F76DE8D5B /* Pods_Calendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -489,284 +491,100 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B7B1F46CA4D7708568BD78F082D515F5 /* Products */;
+			productRefGroup = DA0497EBD937BB861A757A1971B9CCD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F99A29D889F7DCD5935C0AAD8116851D /* DNDDragAndDrop */,
-				791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */,
-				FC2F556AD6E7962DC899A8D0135AF232 /* KDDragAndDropCollectionViews */,
-				F6210BA39EFF489815307DC828C474AF /* Pods-Calendar */,
+				69BD8263DE96B3ED5BD651D6437AC4A0 /* DNDDragAndDrop */,
+				5EB39793FF8D4816782B45B12F94903A /* DragDropiOS */,
+				4D5B8B1BE64F80268007C79821DDDC20 /* JTAppleCalendar */,
+				69FA6068711BE6AFEDC8EDA2D1F112C8 /* Pods-Calendar */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		035AF78EB87D614AB12BDFE858E8F1C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		302C9DE1D43F83D0D376D07864AE6347 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		468A4DBADD71D4F0D59F3C0F1F3B5CAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D533AAEB05522C3FF9789A877F43082D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1EAB681C0A7F1A93441D57BFC66F8B81 /* Sources */ = {
+		2A35D2ADABCF3F3DAF1AE5FA1467F1AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4611B82085E887F9215E0115AF30F99D /* CalendarEnums.swift in Sources */,
-				42023B129903ACB04DD76CE54BEDD02C /* CalendarStructs.swift in Sources */,
-				819873CF8DBFAD45590AAC8945DC1B5C /* GlobalFunctionsAndExtensions.swift in Sources */,
-				E7CC890914AE49452861315913ED237E /* InternalActionFunctions.swift in Sources */,
-				8E2AF2573C443F0DD5BB8111EC5B5375 /* InternalQueryFunctions.swift in Sources */,
-				E7F6F68D34A04BC292597F6E4B55AB28 /* JTAppleCalendar-dummy.m in Sources */,
-				31A0A90FE6645E6548B15E771DFBFD50 /* JTAppleCalendarDelegateProtocol.swift in Sources */,
-				CFDE80C521CD8313AA440E0FC7B82FBB /* JTAppleCalendarLayout.swift in Sources */,
-				B4739E1452E5D10D47F64666AE6C5591 /* JTAppleCalendarLayoutProtocol.swift in Sources */,
-				0F08C0922AFF8660DDC6B33F5973AD53 /* JTAppleCalendarVariables.swift in Sources */,
-				C2DE02D3C4CC5353EB5A8401F05A5A8D /* JTAppleCalendarView.swift in Sources */,
-				8394230B7C1D50A0FA996E134955E23F /* JTAppleCell.swift in Sources */,
-				12A2AD300F65E773885B5B69FB1D9AB8 /* JTAppleCollectionReusableView.swift in Sources */,
-				5F95E758840175C2194AF43CE326AD58 /* JTCalendarProtocols.swift in Sources */,
-				D42A00134A505A5ED05C10FC70F1926A /* UICollectionViewDelegates.swift in Sources */,
-				8E5E3D6FCB6C2C52ED20EF236FC3155B /* UIScrollViewDelegates.swift in Sources */,
-				D1B55151AE05392B4A05522DED127897 /* UserInteractionFunctions.swift in Sources */,
+				9491C95BD62AA088D4AD4F4A6B21BC6F /* Pods-Calendar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89F13633D0767F00D106EC5602B509DD /* Sources */ = {
+		9061D192B467744C06DC862BE82F57A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB319D8D1263C610B662F37368BC6CCB /* DNDDragAndDrop-dummy.m in Sources */,
-				D9DB17EEC54F70BA438CA1A5EE6A652C /* DNDDragAndDropController.m in Sources */,
-				A89160BCA68B782AF6F08BBB2C29F6A0 /* DNDDragHandler.m in Sources */,
-				37AA16D033AE749F1E5BA5D9610A8D61 /* DNDDragOperation.m in Sources */,
-				B053AD1CF2083880DAB16384DE92F0EE /* DNDLongPressDragRecognizer.m in Sources */,
+				F7F8FE98FBE2455E87F7E41D20FA4194 /* CalendarEnums.swift in Sources */,
+				A9A110279F3650CD3BD01F3BF50FC5AA /* CalendarStructs.swift in Sources */,
+				732791936803EA17C15C484FE363E66D /* GlobalFunctionsAndExtensions.swift in Sources */,
+				62AE4C01F0FD029C69064E885E8CECB2 /* InternalActionFunctions.swift in Sources */,
+				B95FE078CFD340D8F475DE83245F927C /* InternalQueryFunctions.swift in Sources */,
+				FE1689779B1ABFD6586C76E20297224D /* JTAppleCalendar-dummy.m in Sources */,
+				3150DC89B627CCDF7AE9AB1B38AA0C05 /* JTAppleCalendarDelegateProtocol.swift in Sources */,
+				C1B6669E99C4AE54D8A0E5265C1F67FB /* JTAppleCalendarLayout.swift in Sources */,
+				44EAE458BED20531212FAE3246B6350C /* JTAppleCalendarLayoutProtocol.swift in Sources */,
+				52CB24003B0C56C788739EF3F2D92DBF /* JTAppleCalendarVariables.swift in Sources */,
+				89C3EC32079226CDBA9AD664CFD3DB7B /* JTAppleCalendarView.swift in Sources */,
+				6DE3875930E2A44854A28CFEC04F1992 /* JTAppleCell.swift in Sources */,
+				9FC6C8FF22D45590A4CC466CDE175749 /* JTAppleCollectionReusableView.swift in Sources */,
+				E824E5686FA7E8303C4601097FBAC23F /* JTCalendarProtocols.swift in Sources */,
+				7BF6D2DE88FA18F3A0A1ECE15A8F3E6E /* UICollectionViewDelegates.swift in Sources */,
+				9D51A8ADC90310C8270F5C86B7CEB379 /* UIScrollViewDelegates.swift in Sources */,
+				371C1A65A79396D04E7BD098BB52F3AE /* UserInteractionFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94C60544D085B64047399E26F939A96F /* Sources */ = {
+		D4C75FC665D0158A25D413085DD8B436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE133F7D800A1C036021F340146E595 /* Pods-Calendar-dummy.m in Sources */,
+				35D2FA9389D49A34A1D3F2C223B25083 /* DragDropCollectionView.swift in Sources */,
+				2E34BF5C4E0A10FD758331AEC8DD5F1B /* DragDropiOS-dummy.m in Sources */,
+				350FD127C16D0AC10F34BEF1B7F96440 /* DragDropiOS.swift in Sources */,
+				15FB42C772D290DD9709904FD4FB4354 /* DragDropManager.swift in Sources */,
+				84DDDB053404246DE3D37B56171C9C55 /* DragDropTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FEFBDAB8C73E81D060BB8CB5D980AB /* Sources */ = {
+		EF3C2C108FABE04B4E64E6552FE8F2CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4476A84B0DA3E44330889219E5553D /* KDDragAndDropCollectionView.swift in Sources */,
-				DE1653E6759789811F6C2995504F33CE /* KDDragAndDropCollectionViews-dummy.m in Sources */,
-				A0524D54A29E525193B32AAC14848B4C /* KDDragAndDropManager.swift in Sources */,
+				E1778A7661A4317422253BC8534D98A2 /* DNDDragAndDrop-dummy.m in Sources */,
+				868DA15495B62128DFA8BB5C4B1F6DED /* DNDDragAndDropController.m in Sources */,
+				1B535709E34F02F675298F19FEA36378 /* DNDDragHandler.m in Sources */,
+				5965C26D8E93E2AC552D5165EE610181 /* DNDDragOperation.m in Sources */,
+				A4C1B448C29881E5C87EC8A87F667114 /* DNDLongPressDragRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2CE8BEEFC841E1A8E3FDA04942BB07DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KDDragAndDropCollectionViews;
-			target = FC2F556AD6E7962DC899A8D0135AF232 /* KDDragAndDropCollectionViews */;
-			targetProxy = 541CD77DBC07015C2EA775B4AA186273 /* PBXContainerItemProxy */;
-		};
-		36278643E70E0784D8F87F51E16A4839 /* PBXTargetDependency */ = {
+		0D53F5D3F48EEFBD13FC16FA2E604FA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DNDDragAndDrop;
-			target = F99A29D889F7DCD5935C0AAD8116851D /* DNDDragAndDrop */;
-			targetProxy = 7520E5A98411B108CBBB57AD60935DD8 /* PBXContainerItemProxy */;
+			target = 69BD8263DE96B3ED5BD651D6437AC4A0 /* DNDDragAndDrop */;
+			targetProxy = F143E376719B15CB92249172D049BF1A /* PBXContainerItemProxy */;
 		};
-		655D4A388E0886EB9BAC972693FAC712 /* PBXTargetDependency */ = {
+		61C1DE70B52BB1BE1B3F246D725DAD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragDropiOS;
+			target = 5EB39793FF8D4816782B45B12F94903A /* DragDropiOS */;
+			targetProxy = 60AE45F94F56AA25AE10A4EE76C45093 /* PBXContainerItemProxy */;
+		};
+		6D6198B13C66836EFC9E8B6ADC4A5076 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JTAppleCalendar;
-			target = 791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */;
-			targetProxy = 6B6B8B8B1270B377F7D2EDF100DFC012 /* PBXContainerItemProxy */;
+			target = 4D5B8B1BE64F80268007C79821DDDC20 /* JTAppleCalendar */;
+			targetProxy = DF088123B0869854A373D59C36CF9B55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		022E85A8FA1D3BEAC1855A02C3E5AF74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13C592BDAC515D2060FF44E3FDDB78EF /* KDDragAndDropCollectionViews.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KDDragAndDropCollectionViews/KDDragAndDropCollectionViews-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KDDragAndDropCollectionViews/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KDDragAndDropCollectionViews/KDDragAndDropCollectionViews.modulemap";
-				PRODUCT_MODULE_NAME = KDDragAndDropCollectionViews;
-				PRODUCT_NAME = KDDragAndDropCollectionViews;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0BB9F00971D8226AC6E5642E3279A6D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1109789980C096DB12059377E364536 /* Pods-Calendar.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Calendar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Calendar/Pods-Calendar.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		50800B257C36D7C04981712E73A6E37B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D6A91BE0BDE1DFD7B68EF59CDE3FE57 /* Pods-Calendar.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Calendar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Calendar/Pods-Calendar.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5C6A132ABD5333B2865ECC5DBD6FC299 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C5BB1953CF70286E8A9A0607AFF7F5B /* JTAppleCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
-				PRODUCT_MODULE_NAME = JTAppleCalendar;
-				PRODUCT_NAME = JTAppleCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -820,8 +638,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -830,9 +647,9 @@
 			};
 			name = Debug;
 		};
-		96967935033A367F6B42190833E1468E /* Debug */ = {
+		57AC9743841DE27D298407FFC8EFF463 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13C592BDAC515D2060FF44E3FDDB78EF /* KDDragAndDropCollectionViews.xcconfig */;
+			baseConfigurationReference = E119148BD6A65F0ADEBC1B0DD4F02F59 /* JTAppleCalendar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -843,18 +660,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KDDragAndDropCollectionViews/KDDragAndDropCollectionViews-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KDDragAndDropCollectionViews/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/KDDragAndDropCollectionViews/KDDragAndDropCollectionViews.modulemap";
-				PRODUCT_MODULE_NAME = KDDragAndDropCollectionViews;
-				PRODUCT_NAME = KDDragAndDropCollectionViews;
+				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
+				PRODUCT_MODULE_NAME = JTAppleCalendar;
+				PRODUCT_NAME = JTAppleCalendar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -866,9 +683,122 @@
 			};
 			name = Debug;
 		};
-		B287A1E2A8C58987B1FA8EEB729923F5 /* Debug */ = {
+		8BCCCD6226CAFE264D542F65050AABA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 767BE3EE7F5E843D9261F610699320AD /* DNDDragAndDrop.xcconfig */;
+			baseConfigurationReference = 4D6A91BE0BDE1DFD7B68EF59CDE3FE57 /* Pods-Calendar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Calendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Calendar/Pods-Calendar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7C49D7B1A03565B5C29C202E9408F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E119148BD6A65F0ADEBC1B0DD4F02F59 /* JTAppleCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
+				PRODUCT_MODULE_NAME = JTAppleCalendar;
+				PRODUCT_NAME = JTAppleCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A90FD2FC75FD5670153BB13EE08C16F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73392816EDD267AE24166394E9E5D0A4 /* DragDropiOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DragDropiOS/DragDropiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragDropiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DragDropiOS/DragDropiOS.modulemap";
+				PRODUCT_MODULE_NAME = DragDropiOS;
+				PRODUCT_NAME = DragDropiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D679A2A8FD51773D74D407F18150AFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1151BEBF58B732FFE36B24952C9CEA79 /* DNDDragAndDrop.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -901,7 +831,118 @@
 			};
 			name = Debug;
 		};
-		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+		E9C8A34EC9F464F7C07133F995C45880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73392816EDD267AE24166394E9E5D0A4 /* DragDropiOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DragDropiOS/DragDropiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragDropiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DragDropiOS/DragDropiOS.modulemap";
+				PRODUCT_MODULE_NAME = DragDropiOS;
+				PRODUCT_NAME = DragDropiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE6BD020F653EFBE3FF82335D7611631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1151BEBF58B732FFE36B24952C9CEA79 /* DNDDragAndDrop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNDDragAndDrop/DNDDragAndDrop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNDDragAndDrop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DNDDragAndDrop/DNDDragAndDrop.modulemap";
+				PRODUCT_MODULE_NAME = DNDDragAndDrop;
+				PRODUCT_NAME = DNDDragAndDrop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0110175DFB0A6F23D7777C205C64094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1109789980C096DB12059377E364536 /* Pods-Calendar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Calendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Calendar/Pods-Calendar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -953,93 +994,20 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		FC04E51C13D773DB3936AF9EB6AFDF9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C5BB1953CF70286E8A9A0607AFF7F5B /* JTAppleCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
-				PRODUCT_MODULE_NAME = JTAppleCalendar;
-				PRODUCT_NAME = JTAppleCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FE65564354FB24B1894F90CB24201B0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 767BE3EE7F5E843D9261F610699320AD /* DNDDragAndDrop.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DNDDragAndDrop/DNDDragAndDrop-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DNDDragAndDrop/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DNDDragAndDrop/DNDDragAndDrop.modulemap";
-				PRODUCT_MODULE_NAME = DNDDragAndDrop;
-				PRODUCT_NAME = DNDDragAndDrop;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		299A47705A23DA6FC3FBCF9990220FBC /* Build configuration list for PBXNativeTarget "KDDragAndDropCollectionViews" */ = {
+		1E78F0AF2A8CFF29D1235D29F58A4E06 /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96967935033A367F6B42190833E1468E /* Debug */,
-				022E85A8FA1D3BEAC1855A02C3E5AF74 /* Release */,
+				57AC9743841DE27D298407FFC8EFF463 /* Debug */,
+				A7C49D7B1A03565B5C29C202E9408F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1047,35 +1015,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
-				C4EAA84F44D044E108500A81C635F21E /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5775E261452488D2215754E63853D9FA /* Build configuration list for PBXNativeTarget "Pods-Calendar" */ = {
+		A4A02A5B2943F93B2657F30B1A88F021 /* Build configuration list for PBXNativeTarget "DragDropiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50800B257C36D7C04981712E73A6E37B /* Debug */,
-				0BB9F00971D8226AC6E5642E3279A6D5 /* Release */,
+				E9C8A34EC9F464F7C07133F995C45880 /* Debug */,
+				A90FD2FC75FD5670153BB13EE08C16F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05734B6234EAB2E10074190120E443F /* Build configuration list for PBXNativeTarget "DNDDragAndDrop" */ = {
+		A84555D6F4944E89A7FAC1A7645B1AE7 /* Build configuration list for PBXNativeTarget "DNDDragAndDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B287A1E2A8C58987B1FA8EEB729923F5 /* Debug */,
-				FE65564354FB24B1894F90CB24201B0A /* Release */,
+				D679A2A8FD51773D74D407F18150AFA4 /* Debug */,
+				EE6BD020F653EFBE3FF82335D7611631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0F2152DD82D40CD6D91FAD1CFDD1D4E /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */ = {
+		F8877A205AD44938E6A8B0307CF74770 /* Build configuration list for PBXNativeTarget "Pods-Calendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC04E51C13D773DB3936AF9EB6AFDF9A /* Debug */,
-				5C6A132ABD5333B2865ECC5DBD6FC299 /* Release */,
+				8BCCCD6226CAFE264D542F65050AABA3 /* Debug */,
+				F0110175DFB0A6F23D7777C205C64094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

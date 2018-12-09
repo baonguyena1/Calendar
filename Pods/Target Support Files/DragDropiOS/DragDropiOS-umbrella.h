@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double KDDragAndDropCollectionViewsVersionNumber;
-FOUNDATION_EXPORT const unsigned char KDDragAndDropCollectionViewsVersionString[];
+FOUNDATION_EXPORT double DragDropiOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char DragDropiOSVersionString[];
 

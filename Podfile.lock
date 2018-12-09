@@ -1,24 +1,24 @@
 PODS:
   - DNDDragAndDrop (1.4.0)
+  - DragDropiOS (0.2.4)
   - JTAppleCalendar (7.1.6)
-  - KDDragAndDropCollectionViews (1.5.1)
 
 DEPENDENCIES:
   - DNDDragAndDrop (~> 1.4)
+  - DragDropiOS
   - JTAppleCalendar (~> 7.0)
-  - KDDragAndDropCollectionViews (~> 1.5.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - DNDDragAndDrop
+    - DragDropiOS
     - JTAppleCalendar
-    - KDDragAndDropCollectionViews
 
 SPEC CHECKSUMS:
   DNDDragAndDrop: 4b8f74b52a185757d6fe1c5b2c7cf51d633d08ae
+  DragDropiOS: 55c21f9f56ebda9782a5402cae896f24360f2d3a
   JTAppleCalendar: abb30678f42a4ef8a340a932b1dcb8c85a33dac2
-  KDDragAndDropCollectionViews: 96ffdc53d3e06d359110485f04c16cdfd7b13e4b
 
-PODFILE CHECKSUM: b2c6ff73211b0609dbdefa3db7e064247de867a2
+PODFILE CHECKSUM: be03040e34a804c7f74997c95232294c70ffa25f
 
 COCOAPODS: 1.5.3

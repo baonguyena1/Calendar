@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DNDDragAndDrop" "${PODS_CONFIGURATION_BUILD_DIR}/JTAppleCalendar" "${PODS_CONFIGURATION_BUILD_DIR}/KDDragAndDropCollectionViews"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DNDDragAndDrop" "${PODS_CONFIGURATION_BUILD_DIR}/DragDropiOS" "${PODS_CONFIGURATION_BUILD_DIR}/JTAppleCalendar"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/DNDDragAndDrop/DNDDragAndDrop.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/JTAppleCalendar/JTAppleCalendar.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/KDDragAndDropCollectionViews/KDDragAndDropCollectionViews.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "DNDDragAndDrop" -framework "JTAppleCalendar" -framework "KDDragAndDropCollectionViews"
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/DNDDragAndDrop/DNDDragAndDrop.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/DragDropiOS/DragDropiOS.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/JTAppleCalendar/JTAppleCalendar.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "DNDDragAndDrop" -framework "DragDropiOS" -framework "JTAppleCalendar"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
